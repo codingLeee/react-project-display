@@ -1,0 +1,16 @@
+.gwj-table-box{
+    padding-top: 20px;
+    position: relative;
+    background-color: #fff;
+}
+.gwj-table-button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.gwj-table{
+    margin-top: 50px;
+}
+.gwj-table .ant-table-thead > tr > th,.gwj-table .ant-table-tbody > tr > td {
+    text-align: center;
+}

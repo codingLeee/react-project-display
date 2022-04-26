@@ -1,0 +1,249 @@
+/*
+ * @Author: zhengqi 
+ * @Date: 2018-11-11 11:16:09 
+ * @Last Modified by: zhengqi
+ * @Last Modified time: 2018-11-13 17:28:04
+ * ai数据样式
+ */
+
+.zq-aid-container {
+    padding: 20px 15px;
+}
+
+.zq-aid-tit {
+    padding-left: 10px;
+    height: 40px;
+    width: 207px;
+    background-color: #dbdbdb;
+    position: relative;
+    font-size: 16px;
+    color: #5a6165;
+    /* text-align: center; */
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.zq-aid-tit span {
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.zq-aid-tit::after {
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-left-color: #dbdbdb;
+}
+
+.zq-aid-tit::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #c9c9ca;
+    border-left: 20px solid transparent;
+}
+
+.zq-gutter-row {
+    padding: 0 5px;
+    height: 100%;
+}
+
+.zq-gutter-row>div {
+    background-color: #fff;
+    height: 100%;
+    padding: 20px;
+}
+
+.zq-ait-personTotal {
+    padding-top: 20px;
+}
+
+
+/**互动、学生练习统计*/
+
+.zq-intion-container>p {
+    margin-bottom: 4px;
+    padding-top: 6px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.zq-aid-legend {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.zq-aid-legend>li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 16px;
+    color: #5d6367;
+}
+
+.zq-aid-legend>li>p {
+    width: 22px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+/*line*/
+
+.zq-line-bc {
+    width: 100%;
+    background-color: #ebebeb;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.zq-line-bc>span {
+    position: absolute;
+    top: 0;
+    transition: transform .3s;
+    -moz-transition: transform .3s;
+    /* Firefox 4 */
+    -webkit-transition: transform .3s;
+    /* Safari 和 Chrome */
+    -o-transition: transform .3s;
+    cursor: pointer;
+}
+
+.zq-line-bc>span:hover {
+    transform: scaleY( 1.4);
+    z-index: 9999;
+}
+
+.zq-line-classaction {
+    height: 16px;
+}
+
+.zq-line-classaction>span {
+    height: 16px;
+}
+
+.zq-lin-alipers {
+    width: 100%;
+    height: 36px;
+    position: relative;
+}
+
+.zq-lin-alipers>div {
+    position: absolute;
+    top: 0;
+    width: 4px;
+    /* text-align: center; */
+    font-size: 12px;
+    color: #dbdbdb;
+}
+
+.zq-lin-alipers>div::after {
+    position: absolute;
+    content: '';
+    left: 6px;
+    top: 11px;
+    height: 1px;
+    width: calc( 100% - 8px);
+    border-bottom: 1px solid #d8d8d8;
+    transform: translateY(0.8);
+}
+
+.zq-lin-alipers>div:last-child {
+    width: 4px !important;
+}
+
+.zq-lin-alipers>div>span {
+    display: block;
+    margin-left: -5px;
+}
+
+.zq-lin-alipers>div:first-child>span,
+.zq-lin-alipers>div:nth-child(2)>span {
+    margin-left: -1px;
+}
+
+.zq-lin-alipers>div:last-child {
+    margin-left: -4px;
+}
+
+.lxx-u-point {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #BBC2C0;
+    border-radius: 50%;
+}
+
+.progress .ant-progress-inner {
+    padding: 6px;
+    background: #FDFDFD;
+    border: 1px solid #BBC2C0;
+}
+
+.progress .ant-progress-success-bg,
+.progress .ant-progress-bg {
+    background-color: #F29802;
+    height: 13px !important;
+}
+
+.zq-line-tooltip .ant-tooltip-inner {
+    background-color: #93999b;
+}
+
+.zq-line-tooltip .ant-tooltip-inner>div {
+    text-align: center;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.zq-line-tooltip.ant-tooltip-placement-top .ant-tooltip-arrow,
+.zq-line-tooltip.ant-tooltip-placement-topLeft .ant-tooltip-arrow,
+.zq-line-tooltip.ant-tooltip-placement-topRight .ant-tooltip-arrow {
+    border-top-color: #93999b;
+}
+
+.zq-line-tooltip .ant-tooltip-inner>div>p {
+    line-height: 26px;
+}
+
+.zq-no-data {
+    padding-top: 210px;
+    height: 275px;
+    width: 100%;
+    background: #fff url('./../img/nodata1.png') 50% 24%/170px 170px no-repeat;
+    border-bottom: 0;
+    text-align: center;
+}
+
+
+/* .zq-no-data span {} */
+
+.lxx-g-classInfo {
+    padding: 0 20px;
+    margin-top: -20px;
+    height: 40px;
+    line-height: 40px;
+    background: #DBDBDB;
+}
+
+.lxx-g-classInfo span {
+    padding-right: 30px;
+}
+
+.lxx-g-classInfo svg {
+    font-size: 20px;
+    color: #93999B;
+    margin-right: 10px;
+}

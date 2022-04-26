@@ -1,0 +1,18 @@
+.cjy-rt-treeBox{
+  width: 200px;
+  height: 910px;
+  border: 1px solid #c2c8cc;
+  float: left;
+  margin-left: 40px;
+  padding-left: 10px;
+  text-align: left;
+  overflow-y: auto;
+}
+
+.cjy-rt-treeBox .ant-tree.ant-tree-show-line li:not(:last-child):before{
+  border-left: none;
+}
+
+.cjy-rt-treeBox .ant-tree li span.ant-tree-switcher.ant-tree-switcher-noop{
+  opacity: 0;
+}

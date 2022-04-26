@@ -1,0 +1,12 @@
+.xt-submenu{
+  height: 53px;
+  background-color: #FFF;
+}
+
+.xt-submenu .xt-menu{
+  border-bottom: 0;
+  width: 1140px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 51px;
+}

@@ -1,0 +1,207 @@
+.mj-lot-tabCon{
+  /* max-height: 1000px; */
+  background: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.mj-lot-operate{
+  padding-top: 20px;
+  text-align: right;
+}
+.mj-lot-operate input, .mj-lot-operate button{
+  height: 40px;
+  font-size: 14px;
+}
+.mj-lot-operate input{
+  width: 170px;
+}
+.mj-lot-operate button{
+  width: 70px;
+  margin: 0px 20px;
+}
+
+/* 表格及分页样式 */
+.mj-lot-tab{
+  width: 1100px;
+  margin: 20px 0 0 15px;
+  overflow: auto;
+}
+
+.mj-lot-tab .ant-table{
+  font-size: 14px;
+  color:#4d4d4d;
+}
+.mj-lot-tab .ant-table table{
+  text-align: center;
+}
+.mj-lot-tab .ant-table-thead > tr > th,
+.mj-lot-tab .ant-table-tbody > tr > td{
+  text-align: center;
+  padding:11px 8px 9px;
+  border-bottom-color:#D9D9D9;
+}
+.mj-lot-tab .ant-table-thead > tr > th:nth-child(1),
+.mj-lot-tab .ant-table-tbody > tr > td:nth-child(1){
+  text-align: left;
+  padding-left: 20px;
+}
+.mj-lot-tab .ant-table-thead > tr:nth-child(2n),
+.mj-lot-tab .ant-table-tbody > tr:nth-child(2n){
+  background-color: #FAFAFA;
+}
+.mj-lot-tab .ant-table-thead>tr>th{
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  background-color: #FAFAFA;
+}
+
+
+.mj-lot-tab .ant-pagination {
+    font-size: 14px;
+    border: 1px solid #D9D9D9;
+    padding: 0 15px;
+    margin: 9px 0 21px 0;
+    border-radius: 4px;
+}
+.mj-lot-tab .ant-pagination-item {
+    font-size: 14px;
+    margin-right: 0px;
+    border: 0px;
+    height: 36px;
+    min-width: 36px;
+    line-height: 36px;
+    border-radius: 0px;
+}
+.mj-lot-tab .ant-spin-nested-loading > div > .ant-spin{
+  left:0;
+}
+
+
+
+.mj-lot-icon1{
+  margin-top: 2px;
+  cursor: pointer;
+      font-size: 22px;
+    vertical-align: sub;
+}
+.mj-lot-icon2{
+  margin-left: 20px;
+  font-size: 18px;
+}
+.mj-lot-icon1, .mj-lot-icon2{
+  color: #a6a6a6;
+}
+.mj-lot-icon1:hover, .mj-lot-icon2:hover{
+  color: #26a5ff;
+}
+
+.mj-lot-pageInfo{
+  width: 500px;
+  margin-top: -40px;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 15px;
+}
+.mj-lft-tab{
+  text-align: center;
+}
+
+/* ListenFiniTab */
+.mj-lft-seleCon{
+  float: left;
+  margin-left: 20px;
+}
+.mj-lft-seleCon .ant-input-group.ant-input-group-compact{
+  display: inline-block;
+}
+.mj-lft-span, .mj-lft-sele .ant-select-selection-selected-value{
+    font-size: 14px;
+    color: #666666;
+    float: left;
+    line-height: 40px;
+}
+.mj-lft-sele{
+  display: inline-block;
+  margin-left: 10px;
+}
+.mj-lft-sele, .mj-lft-sele .ant-select-selection--single{
+  width: 116px;
+  height: 40px;
+}
+.mj-lft-sele .ant-select-selection-selected-value{
+    line-height: 40px;  
+} 
+ :root .ant-select-arrow{
+  font-size: 18px;
+} 
+
+/* listenerOverTab */
+.mj-ldt-sele2{
+  margin: 0 10px;
+}
+.mj-ldt-span{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.mj-ldt-seleCon{
+  margin-left: 50px;
+}
+.mj-ldt-overTime{
+  display: inline-block;
+  width: 356px;
+}
+.mj-ldt-overInfo{
+  display: inline-block;
+  width: 365px;
+}
+.mj-ldt-inlineBlock{
+  display:inline-block;
+  width:68px; 
+}
+
+
+/* TpkManaLisTargetSet */
+.mj-lot-operate .mj-tmts-btn{
+  text-align: left;
+  display: block;
+  width: 116px;
+  background-color: #14cc8f;
+  border-color: #14cc8f;
+}
+.mj-lot-operate .mj-tmts-btn:hover{
+  background-color: #7EE5C4;
+  border-color: #7EE5C4;
+}
+.mj-lot-icon3{
+  margin-left: 10px;
+  font-size: 21px;
+  cursor: pointer;
+  vertical-align: sub;
+}
+.mj-tmlts-operate{
+  width: 116px;
+}
+.mj-tmts-noverflow{
+  display: inline-block;
+  width: 350px;
+}
+.mj-tmts-overflow{
+  float: left;
+  width: 300px;
+}
+.mj-tmts-total{
+  display: inline-block;
+}
+.mj-tmts-overName{
+  display: inline-block;
+   width: 212px; 
+}
+
+.mj-ldt-overTime, .mj-tmts-overflow, .mj-tmts-noverflow, .mj-ldt-overInfo, .mj-ldt-inlineBlock, .mj-tmts-overName{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

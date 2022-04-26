@@ -1,0 +1,53 @@
+/*
+ * @Author: 蒲飞 
+ * @Date: 2017-09-21 20:12:24 
+ * @Last Modified by: MinJ
+ * @Last Modified time: 2019-03-14 16:35:12
+ */
+
+.pf-tap-applylisten{
+  background-color: #fff;
+  margin-top: 9px;
+  /* margin-bottom: 65px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+.pf-tap-applylisten .cjy-rcl-slctBox{
+  margin:0;
+}
+.pf-tap-applylisten .cjy-rct-rightTop{
+  padding-right:10px;
+  padding-top: 5px;
+}
+.pf-tap-applylisten .cjy-rct-leftBtm{
+  padding-left:10px;
+  padding-bottom: 5px;
+}
+.pf-tap-applylisten .cjy-rt-treeBox{
+  height: 854px;
+}
+.pf-tap-applylisten .cjy-rcl-choseLsBox{
+  margin-top: 0px;
+}
+.pf-tap-applylisten .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+  padding:11px 8px;
+}
+.pf-tap-applylisten  .ant-table-tbody > tr:nth-child(2n+1){
+  background-color: #FAFAFA;
+}
+.pf-rap-confirm{
+  height:40px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  text-align: center;
+}
+.pf-rap-confirm .ant-btn{
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+}
+.pf-rap-confirm .ant-btn.ant-btn-primary{
+  background-color: #14CC8F;
+  border-color: #14CC8F;
+} 

@@ -1,0 +1,99 @@
+.pf-t-verifylisten{
+  width:100%;
+  height:100%;
+  background-color: #fff;
+  margin-bottom:84px;
+}
+.pf-t-totaloperation{
+  width:100%;
+  height: 80px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.pf-t-verifybutton{
+  margin-right: 10px;
+}
+.pf-t-verifybutton.ant-btn-lg{
+  display: block;
+  float: left;
+  padding:19px 13px;
+  line-height: 0px; 
+}
+.pf-t-agreebutton{
+  background-color: #14CC8F;
+  border-color: #14CC8F;
+}
+.pf-t-agreebutton:hover,
+.pf-t-agreebutton:focus{
+  background-color: #2EE5AA;
+  border-color: #2EE5AA;
+}
+.pf-t-disagreebutton{
+  background-color: #FF584F;
+  border-color: #FF584F;
+}
+.pf-t-disagreebutton:hover,
+.pf-t-disagreebutton:focus{
+  background-color: #FA7674;
+  border-color: #FA7674;
+}
+/* table style */
+.pf-t-verifylist{
+  padding:0 20px;
+}
+.pf-t-verifylist .ant-table{
+  font-size: 14px;
+  color:#4d4d4d;
+}
+.pf-t-verifylist .ant-table table{
+  text-align: center;
+}
+.pf-t-verifylist .ant-table-thead > tr > th,
+.pf-t-verifylist .ant-table-tbody > tr > td{
+  text-align: center;
+  padding:15px 8px;
+  border-bottom-color:#D9D9D9;
+}
+.pf-t-verifylist .ant-table-thead > tr:nth-child(2n),
+.pf-t-verifylist .ant-table-tbody > tr:nth-child(2n){
+  background-color: #FAFAFA;
+}
+.pf-t-verifylist .ant-table-thead>tr>th{
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  background-color: #FAFAFA;
+}
+.pf-t-verifyagree{
+  color: #14CC8F;
+}
+.pf-t-verifyagree:hover{
+  color: #2EE5AA;
+}
+.pf-t-verifydisagree{
+  color: #FF584F;
+}
+.pf-t-verifydisagree:hover{
+  color: #FA7674;
+}
+/* 分页条样式修改 */
+.pf-t-verifylist .ant-pagination-item{
+  font-size: 14px;
+  margin-right: 0px;
+  border:0px;
+  height:36px;
+  min-width: 36px;
+  line-height: 36px;
+  border-radius: 0px;
+}
+.pf-t-verifylist .ant-pagination{
+  font-size: 14px;
+  border:1px solid #D9D9D9;
+  padding:0 15px;
+  margin:9px 0 21px 0;
+}
+.pf-t-paginationitem{
+  font-size: 14px;
+  display: inline-block;
+  float:left;
+  margin-top:-51px;
+}

@@ -1,0 +1,70 @@
+$marginRight: 1.2%;
+.xkStatic-part1 {
+    height: 73px;
+   
+    padding: 0px 2%;
+    padding-top: 20px;
+    background: #fff;
+    overflow: hidden;
+    button{
+        padding: 0 0.4%;
+    }
+    .tit {
+        margin-right: $marginRight;
+        display: inline-block;
+        font-size: 14px;
+    }
+    button:focus{
+        color: #fff !important;
+        background-color: #096dd9 !important;
+        border-color: #096dd9;
+        
+    } 
+    .antclick{
+        color: #fff !important;
+        background-color: #096dd9 !important;
+        border-color: #096dd9;
+        transform: 0;
+    }
+   .yrj_xktj_modal{
+       display:none!important;
+       
+   }
+    .picker {
+        width: 21%;
+        margin: 0 $marginRight;
+    }
+    .picker_zw {
+        @extend .picker;
+        ox-sizing: border-box;
+        position: relative;
+        display: inline-block;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s; 
+    }
+   
+    .ant-select {
+        width: 10.5%;
+        display: inline-block;
+    }
+    .select {
+        margin-right: $marginRight;
+        margin-left: $marginRight;
+    }
+    .ant-input-affix-wrapper {
+        width: 15%;
+    }
+    .uessearch {
+        margin-right: $marginRight;
+        margin-left: $marginRight;
+    }
+    .fr{
+        float:right;
+    }
+    .input{
+        width: 15%;
+    }
+
+
+    
+}

@@ -1,0 +1,20 @@
+.cjy-rselect-slctBox{
+  height: 40px;
+  float:left;
+}
+
+.cjy-rselect-slctSp{
+  display: inline-block;
+  line-height: 40px;
+  font-size: 14px;
+  vertical-align: bottom;
+}
+
+.cjy-rselect-slctBox .ant-select-selection--single{
+  height: 40px;
+}
+
+.cjy-rselect-slctBox .ant-select-selection-selected-value{
+  line-height: 40px;
+  font-size: 14px;
+}

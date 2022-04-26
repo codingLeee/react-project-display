@@ -1,0 +1,19 @@
+.pf-tk-title{
+  background: #fff;
+  width: 100%;
+  height:50px;
+  padding-left:20px;
+  margin-bottom: 9px;
+}
+.pf-tk-title::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+.pf-tk-title span{
+  display: block;
+  font-size: 16px;
+  color:#505050;
+  float: left;
+  padding-top:13px; 
+}

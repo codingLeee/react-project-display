@@ -1,0 +1,31 @@
+.mj-lcn-nameCon{
+  float: left;
+  width: 470px;
+  height: 480px;
+  border: 1px solid #c2c8cc;
+  margin-top: 30px;
+}
+
+.mj-lcn-tit{
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+  border-bottom: 1px solid #c2c8cc;
+  text-align: left;
+}
+
+.mj-lcn-name div{
+  margin-top: 16px;
+}
+.mj-lcn-name .mj-lcn-span{
+  display: inline-block;
+  width: 470px;
+  padding-left: 18px;
+  margin-top: 20px;
+  color: #ff584f;
+  text-align: left;
+}
+
+.mj-lcn-name .zq-lcn-perChoName{
+    max-height: 360px;
+}

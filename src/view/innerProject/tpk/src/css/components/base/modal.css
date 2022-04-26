@@ -1,0 +1,137 @@
+/*
+ * @Author: Summer 
+ * @Date: 2017-09-18 11:15:09 
+ * @Last Modified by: JudyC
+ * @Last Modified time: 2017-10-19 14:48:13
+ * 提示框、确认框及模态弹出窗
+ */
+
+.ant-confirm-confirm .ant-modal-content,
+.ant-confirm-info .ant-modal-content{
+  border-radius: 0;
+}
+
+.ant-confirm-confirm .ant-modal-content .ant-modal-body,
+.ant-confirm-info .ant-modal-content .ant-modal-body{
+  padding: 0;
+}
+
+.ant-confirm-confirm .ant-confirm-body .ant-confirm-title,
+.ant-confirm-info .ant-confirm-body .ant-confirm-title{
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  background-color: #273138;
+  padding: 0 16px;
+  color: #fff;
+}
+
+.ant-confirm-confirm .ant-confirm-body .ant-confirm-content,
+.ant-confirm-info .ant-confirm-body .ant-confirm-content{
+  margin: 0;
+  padding: 62px 54px;
+  text-align: center;
+  color: #273138;
+  font-size: 18px;
+}
+
+.ant-confirm-confirm.ant-confirm .ant-confirm-btns,
+.ant-confirm-info.ant-confirm .ant-confirm-btns{
+  margin: 0 0 30px 0;
+  float: none;
+  text-align: center;
+}
+
+.ant-confirm-confirm .ant-btn,
+.ant-confirm-info .ant-btn{
+  padding: 0 32px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.ant-confirm-confirm.ant-confirm .ant-confirm-btns button + button,
+.ant-confirm-info.ant-confirm .ant-confirm-btns button + button{
+  margin-left: 20px;
+}
+
+.ant-confirm-confirm .ant-btn-primary,
+.ant-confirm-info .ant-btn-primary{
+    background-color: #14CC8F;
+    border-color: #14CC8F;
+}
+
+.ant-confirm-confirm .ant-btn-primary:hover,
+.ant-confirm-info .ant-btn-primary:hover{
+  background-color: #7EE5C4;
+  border-color: #7EE5C4;
+}
+
+.ant-confirm-success .ant-confirm-btns,
+.ant-confirm-error .ant-confirm-btns,
+.ant-confirm-warning .ant-confirm-btns{
+  display: none;
+}
+
+.ant-confirm-success .ant-confirm-body,
+.ant-confirm-error .ant-confirm-body,
+.ant-confirm-warning .ant-confirm-body{
+  text-align: center;
+}
+
+.ant-confirm-success .ant-confirm-body > .anticon,
+.ant-confirm-error .ant-confirm-body > .anticon,
+.ant-confirm-warning .ant-confirm-body > .anticon{
+  font-size: 90px;
+  margin: 0;
+  float: none;
+}
+
+.ant-confirm.ant-confirm-success .ant-modal-body,
+.ant-confirm.ant-confirm-error .ant-modal-body,
+.ant-confirm.ant-confirm-warning .ant-modal-body{
+  padding: 44px 12px;
+}
+
+.ant-confirm-success .ant-confirm-body .ant-confirm-content,
+.ant-confirm-error .ant-confirm-body .ant-confirm-content,
+.ant-confirm-warning .ant-confirm-body .ant-confirm-content{
+  font-size: 22px;
+  color: #00a854;
+  margin: 30px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.ant-confirm-error .ant-confirm-body .ant-confirm-content{
+  color: #f04134;
+}
+
+.ant-confirm-warning .ant-confirm-body .ant-confirm-content{
+  color: #ffbf00;
+}
+
+/* cjy样式修改 */
+.ant-confirm-btns>button:first-child{
+  background-color: #14CC8F;
+  border-color: #14CC8F;
+  color:#fff;
+}
+
+.ant-confirm-btns>button:first-child:hover{
+  background-color: #7EE5C4;
+  border-color: #7EE5C4;
+  color:#fff;
+}
+
+.ant-confirm-btns .ant-btn-default{
+  border: 1px solid#d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.ant-confirm-btns .ant-btn-default:hover{
+  color: #108ee9;
+  background-color: #fff;
+  border-color: #108ee9;
+}

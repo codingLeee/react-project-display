@@ -1,0 +1,765 @@
+
+.ws-planSetting{
+    padding: 20px;
+    background: #fff;
+    .ws-fore-oper{
+        overflow: hidden;
+        .ws-button{
+            float: left;
+        }
+        .ws-search{
+            float: right;
+        }
+    }
+    .ws-table-oper{
+        font-size: 20px;
+        color: #a6a6a6;
+        SVG{
+            margin-right: 10px;
+            cursor: pointer;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        
+    }
+    .ws-search{
+        svg{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .ant-table-wrapper{
+        border-top: 1px solid #e8e8e8;
+        margin-top: 20px;
+    }
+}
+.ws-add-modal{
+    padding: 40px;
+    .ant-modal-header{
+        background-color:#273138;
+        .ant-modal-title{
+            color: #fff;
+        }    
+    }
+    .ant-modal-close{
+        color: #fff;
+    }
+    .ws-add-btns{
+        text-align: center;
+        button{
+            margin-right: 20px;
+        }
+        button:last-child{
+            margin-right: 0;
+        }
+    }
+}
+.ws-button-green{
+    width: 100px;
+    height: 40px;
+    background: #14cc8f;
+    border: 0;
+    color: #fff;
+    &:active{
+        background: #0ac386;
+        color: #fff;
+    }
+    &:focus{
+        background: #0ac386;
+        color: #fff;
+    }
+    &:hover{
+        background: #0ac386;
+        color: #fff;
+    }
+}
+.ws-button-blue{
+    width: 100px;
+    height: 40px;
+    background: #31a9ff;
+    border: 0;
+    color: #fff;
+    &:active{
+        background: #3eadfd;
+        color: #fff;
+    }
+    &:focus{
+        background: #3eadfd;
+        color: #fff;
+    }
+    &:hover{
+        background: #3eadfd;
+        color: #fff;
+    }
+}
+
+.ws-button-white{
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    border: 0;
+    border: 1px #5c6266 solid;
+    color: #5c6266;
+    &:active{
+        background: #fff;
+        color: #3b4044;
+        border-color: #3b4044;
+    }
+    &:focus{
+        background: #fff;
+        color: #3b4044;
+        border-color: #3b4044;
+    }
+    &:hover{
+        background: #fff;
+        color: #3b4044;
+        border-color: #3b4044;
+    }
+}
+
+.ws-addPlan{
+    .ws-addPlan-header{
+        height: 60px;
+        line-height: 60px;
+        background: #fff;
+        padding: 0 20px;
+        color: #898888;
+        button{
+            margin-right: 20px;
+        }
+        span{
+            span{
+                margin: 0 5px;
+            }
+        }
+    }
+    .ws-addPlan-content{
+        margin-top:10px;
+        background: #fff;
+        height:740px;
+        .ws-addPlan-procedure{
+            padding: 60px 0;
+            text-align: center;
+            ul{
+                margin: 0;
+                overflow: hidden;
+                display: inline-block;
+                li{
+                    &.active{
+                        .ws-addPlan-circle{
+                            background-color: #26a5ff;
+                        }
+                    }
+                    &.activeBy{
+                        .ws-addPlan-circle{
+                            background-color: #14cc8f;
+                        }
+                    }
+                    float: left;
+                    overflow: hidden;
+                    margin-right: 80px;
+                    &:last-child{
+                        margin-right: 0;
+                    }
+                    .ws-addPlan-circle{
+                        width: 60px;
+                        height: 60px;
+                        line-height: 60px;
+                        background: #d9d9d9;
+                        text-align: center;
+                        border-radius: 100%;
+                        color: #fff;
+                        font-size: 26px;
+                        float: left;
+                    }
+                    .ws-addPlan-slogan{
+                        float: left;
+                        padding: 5px 10px;
+                        p{
+                            margin:0;
+                            text-align: left;
+                            &:nth-child(1){
+                                color: #4d4d4d;
+                                font-size: 16px;
+                                margin-bottom: 5px;
+                            }
+                            &:nth-child(2){
+                                color: #808080;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .ws-addPlan-collect{
+            .ws-addPlan-step1{
+                text-align: center;
+                padding: 100px;
+                input{
+                    width: 400px;
+                }
+                .ws-addPlan-step1Hint{
+                    display: inline-block;
+                    width: 60px;
+                    text-align:center;
+                }
+            }
+            .ws-addPlan-step2{
+                height: 480px;
+                margin: 0 40px;
+                .ws-addPlan-step2-person{
+                    height: 100%;
+                    overflow: hidden;
+                    > div{
+                        height: 100%;
+                        float: left;
+                        .ws-addPlan-person-header{
+                            height: 50px;
+                            line-height: 50px;
+                            padding: 0px 18px;
+                            overflow: hidden;
+                            box-sizing: border-box;
+                            border-bottom: 1px solid #ccc;
+                            .ws-addPlan-person-hint{
+                                float: left;
+                            }
+                            
+                        }
+                    }
+                    > div:nth-child(1){
+                        width: 42.5%;
+                        border: 1px solid #ccc;
+                        .ws-addPlan-person-header{
+                            .ant-select{
+                                float: right;
+                                margin: 9px 0;
+                                width: 160px;
+                            }
+                        }
+                        .ws-addPlan-person-list{
+                            .person-list-letter{
+                                height: 80px;
+                                ul{
+                                    overflow: hidden;
+                                    padding: 20px;
+                                    li{
+                                        float: left;
+                                        width: 25px;
+                                        height: 25px;
+                                        line-height: 25px;
+                                        text-align: center;
+                                        cursor: pointer;
+                                        font-size: 18px;
+                                        &:hover{
+                                            color: #26a5ff;
+                                        }
+                                        &.active{
+                                            color: #26a5ff;
+                                            font-weight: bold;
+                                        }         
+                                        &:first-child{
+                                            font-size: 22px;
+                                            padding-right: 1px;
+                                            color: #ff794c;
+                                            
+                                        }                          
+                                    }
+                                }
+                            }
+                            .person-list-show{
+                                ul{
+                                    overflow-y: auto;
+                                    padding: 0 20px;
+                                    width: 100%;
+                                    height: 336px;
+                                    margin: 0 auto;
+                                    li{
+                                        width: 100px;
+                                        line-height: 38px;
+                                        height: 38px;
+                                        text-align: center;
+                                        float: left;
+                                        border: 1px dashed #c2c8cc;
+                                        margin-right: 12px;
+                                        cursor: pointer;
+                                        margin-bottom: 15px;
+                                        button{
+                                            display: inline-block;
+                                            width: 92px;
+                                            padding: 0;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;
+                                            border: 0;
+                                            background: #fff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    > div:nth-child(2){
+                        width: 15%;
+                        text-align: center;
+                        line-height: 480px;
+                        svg{
+                            width: 62px;
+                            height: 40px;
+                            color: #a1cae6;
+                        }
+                    }
+                    > div:nth-child(3){
+                        width: 42.5%;
+                        border: 1px solid #ccc;
+                        .ws-addPlan-person-selected{
+                            ul{
+                                overflow: hidden;
+                                padding: 20px;
+                                li{
+                                    width: 100px;
+                                    line-height: 38px;
+                                    height: 38px;
+                                    text-align: center;
+                                    float: left;
+                                    border: 1px solid #26a5ff;
+                                    background-color: #ebf7ff;
+                                    color: #26a5ff;
+                                    margin-right: 12px;
+                                    cursor: pointer;
+                                    margin-bottom: 15px;
+                                    position: relative;
+                                    button{
+                                        display: inline-block;
+                                        width: 92px;
+                                        padding: 0;
+                                        overflow: hidden;
+                                        text-overflow: ellipsis;
+                                        white-space: nowrap;
+                                        border: 0;
+                                        background-color: #ebf7ff;
+                                        color: #26a5ff;
+                                    }
+                                    svg{
+                                        position: absolute;
+                                        width: 18px;
+                                        height: 18px;
+                                        top: -9px;
+                                        right: -9px;
+                                        color: #ff584f;
+                                        display: none;
+                                    }
+                                    &:hover{
+                                        svg{
+                                            display: block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .ws-addPlan-step2-button{
+                    margin: 20px;
+                    text-align: center;
+                    button:first-child{
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .ws-addPlan-step3{
+                .ws-addPlan-step3-scope{
+                    height: 480px;
+                    width: 470px;
+                    border: 1px solid #ccc;
+                    margin: auto;
+                    .ws-addPlan-step3-header{
+                        height: 50px;
+                        line-height: 50px;
+                        border-bottom: 1px solid #ccc;
+                        padding: 0 20px;
+                        > span{
+                            display: inline-block;
+                            width: 90px;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                            box-sizing: border-box;
+                            border-radius: 5px;
+                            margin-right: 20px;
+                            cursor: pointer;
+                            &.active{
+                                background-color: #31a9ff;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .ws-add-form{
+                        padding: 20px;
+                        .ws-form-label{
+                            width: 30px;
+                        }
+                    }
+                    .ws-addPlan-step3-selected{
+                        padding:  0 20px;
+                        .ws-addPlan-step3-selected-hint{
+                            line-height: 50px;
+                        }
+                        ul{
+                            overflow: hidden;
+                            li{
+                                width: 100px;
+                                line-height: 38px;
+                                height: 38px;
+                                text-align: center;
+                                float: left;
+                                border: 1px solid #26a5ff;
+                                background-color: #ebf7ff;
+                                color: #26a5ff;
+                                margin-right: 12px;
+                                cursor: pointer;
+                                margin-bottom: 15px;
+                                position: relative;
+                                button{
+                                    display: inline-block;
+                                    width: 92px;
+                                    padding: 0;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                    border: 0;
+                                    background-color: #ebf7ff;
+                                    color: #26a5ff;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .ws-addPlan-step3-section{
+                    overflow: hidden;
+                    width: 1287px;
+                    margin: auto;
+                    > div{
+                        float: left;
+                        box-sizing: border-box;
+                    }
+                    .ws-addPlan-step3-person{
+                        height: 350px;
+                        width: 200px;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        .ws-addPlan-step3-person-header{
+                            height: 40px;
+                            line-height: 40px;
+                            font-weight: bold;
+                            padding: 0 20px;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+                            box-sizing: border-box;
+                        }
+                        .ws-addPlan-step3-person-list{
+                            height: 310px;
+                            ul{
+                                margin:0;
+                                padding: 10px 15px;
+                                text-align: center;
+                                li{
+                                    text-align: center;
+                                    margin-bottom: 10px;
+                                    width: 170px;
+                                    background-color: #ebf7ff;
+                                    border: 1px solid #79c2f2;
+                                    color: #45a5e5;
+                                    height: 30px;
+                                    line-height: 30px;
+                                    cursor: pointer;
+                                    &:last-child{
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .ws-addPlan-step3-apply{
+                        width: 150px;
+                        height: 350px;
+                        text-align: center;
+                        p{
+                            width: 100px;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                            border: 1px solid rgba(0, 0, 0, 0.2);
+                            border-radius: 6px;
+                            display: inline-block;
+                            cursor: pointer;
+                            &:nth-child(1){
+                                margin-bottom: 200px;
+                            }
+                            &:nth-child(2){
+                                margin-bottom: 30px;
+                            }
+                        }
+                    }
+                    .ws-addPlan-step3-table{
+                        height: 350px;
+                        width: 882px;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        .ws-addPlan-step3-header{
+                            padding: 10px 20px;
+                            .ws-addPlan-step3-header-hint{
+                                font-weight: bold;
+                                font-size: 16px;
+                                width: 80px;
+                            }
+                            span{
+                                display: inline-block;
+                                width: 60px;
+                                height: 30px;
+                                line-height: 30px;
+                                margin-right: 15px;
+                                text-align: center;
+                                cursor: pointer;
+                                border-radius: 4px;
+                                &.active{
+                                    background-color: rgb(49, 169, 255);
+                                    color: white;
+                                }
+                            }
+                        }
+                        .ws-addPlan-step3-title{
+                            font-size: 12px;
+                            overflow: hidden;
+                            .ws-addPlan-step3-caption{
+                                width: 80px;
+                                height: 40px;
+                                text-align: center;
+                                float: left;
+                                background-color: #ebebeb;
+                                border-right: 1px solid rgba(0, 0, 0, 0.1);
+                                position: relative;
+                                &:last-child{
+                                    border-right: 0;
+                                }
+                                &:not(:first-child){
+                                    line-height: 40px;
+                                }
+                                .ws-jf-title-date{
+                                    position: absolute;
+                                    line-height: 1em;
+                                    top: 8px;
+                                    right: 8px;
+                                }
+                                .ws-jf-title-jc{
+                                    position: absolute;
+                                    line-height: 1em;
+                                    bottom: 8px;
+                                    left: 12px;
+                                }
+                                .ws-jf-title-line
+                                {
+                                    position: absolute;
+                                    height: 1px;
+                                    background-color: #ccc;
+                                    top: 20px;
+                                    left: 0px;
+                                    width: 90.6px;
+                                    transform: rotate(26.57deg);
+                                    -ms-transform: rotate(26.57deg);
+                                    -moz-transform: rotate(26.57deg);
+                                    /* -webkit-transform: rotate(26.57deg); */
+                                    -o-transform: rotate(26.57deg);
+                                }
+                                
+                            }
+                        }
+                        .ws-addPlan-step3-content{
+                            overflow: hidden;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                            .ws-addPlan-step3-caption{
+                                svg{
+                                    position: absolute;
+                                    left: 5px;
+                                    top: 5px;
+                                    width: 10px;
+                                    height: 10px;
+                                    display: none;
+                                    cursor: pointer;
+                                }
+                                &:hover{
+                                    svg{
+                                        display: block;
+                                    }
+                                }
+                                &:nth-child(1){
+                                    background-color: #ebebeb;
+                                }
+                                &:nth-child(12n){
+                                    background-color: #ebebeb;
+                                }
+                                width: 80px;
+                                height: 40px;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                                text-align: center;
+                                float: left;
+                                background-color: #fff;
+                                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                                border-right: 1px solid rgba(0, 0, 0, 0.1);
+                                &:last-child{
+                                    border-right:0;
+                                }
+                                position: relative;
+                                line-height: 40px;
+                                &:last-child{
+                                    border-right: 0;
+                                }
+                                &:nth-child(11n){
+                                    border-right: 0;
+                                }
+                                .ws-jf-title-date{
+                                    position: absolute;
+                                    line-height: 1em;
+                                    top: 8px;
+                                    right: 8px;
+                                }
+                                .ws-jf-title-jc{
+                                    position: absolute;
+                                    line-height: 1em;
+                                    bottom: 8px;
+                                    left: 12px;
+                                }
+                                .ws-jf-title-line
+                                {
+                                    position: absolute;
+                                    height: 1px;
+                                    background-color: #ccc;
+                                    top: 20px;
+                                    left: 0px;
+                                    width: 90.6px;
+                                    transform: rotate(26.57deg);
+                                    -ms-transform: rotate(26.57deg);
+                                    -moz-transform: rotate(26.57deg);
+                                    /* -webkit-transform: rotate(26.57deg); */
+                                    -o-transform: rotate(26.57deg);
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+                .ws-addPlan-step3-button{
+                    margin: 20px;
+                    text-align: center;
+                    button:first-child{
+                        margin-right: 15px;
+                    }
+                }
+            }
+            .ws-addPlan-step4{
+                padding: 0 20px;
+                .ws-addPlan-step4-button{
+                    margin: 20px;
+                    text-align: center;
+                    button:first-child{
+                        margin-right: 15px;
+                    }
+                }
+                .ws-addPlan-table-oper{
+                    span{
+                        border-bottom: 1px solid #33aaff;
+                        color: #33aaff;
+                        cursor: pointer;
+                        &:nth-child(1){
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.ws-noData{
+    text-align: center;
+    color: #ccc;
+    svg{
+        width: 160px;
+        height: 160px;
+    } 
+}
+
+.ws-add-form{
+    >  
+      ul{
+          > li{
+              position: relative;
+              margin-bottom: 10px;
+              .ws-form-label{
+                  width: 70px;
+                  height: 40px;
+                  line-height: 40px;
+                  display: inline-block;
+                  text-align: justify;
+                  text-align-last: justify;
+              }
+              .ws-form-input{
+                  width: 75%;
+                  height: 40px;
+                  margin-left: 5px;
+              }
+              .ws-form-radio{
+                  margin-left: 5px;
+                  .ant-radio-checked .ant-radio-inner{
+                      border-color: #14cc8f;
+                  }
+                  .ant-radio-inner{
+                      &::after{
+                          background-color: #14cc8f;
+                      }
+                  }
+                  .ant-radio:hover .ant-radio-inner{
+                      border-color: #14cc8f;
+                  }
+                  .ant-radio-checked::after{
+                      background-color: #14cc8f;
+                  }
+              }
+              .ws-form-textArea{
+                  vertical-align: top;
+                  width: 75%;
+                  height: 100px;
+                  margin-left: 5px;
+                  resize: none;
+              }
+              .ws-form-mark{
+                  position: absolute;
+                  bottom: 5px;
+                  right: 40px;
+                  color: #999;
+              }
+              .ws-form-select{
+                  width: 75%;
+                  height: 40px;
+                  margin-left: 5px;
+              }
+              .ant-select-enabled{
+                  margin-left: 5px;
+                  margin-right: 5px;
+                  vertical-align: top;
+              }
+              .ant-select-selection--single{
+                  height: 40px;
+              }
+              .ant-select-selection__rendered{
+                  line-height: 38px;
+              }
+              .ant-select-selection--multiple{
+                  padding-bottom: 0;
+              }
+              .ant-select-selection--multiple > ul > li{
+                  margin-top: 6px;
+              }
+          }
+      }
+  }

@@ -1,0 +1,33 @@
+.cjy-chc-haveChoseBox{
+  margin-top: 30px;
+  padding: 0 40px;
+}
+
+.cjy-chc-headLine{
+  height: 40px;
+  font-size: 16px;
+}
+
+.cjy-chc-headLine::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+.cjy-chc-haveChoseSpan{
+  float: left;
+}
+
+.cjy-chc-amountBox{
+  float: right;
+}
+
+.cjy-chc-haveChoseBox th,
+.cjy-chc-haveChoseBox td{
+  font-size: 14px !important;
+}
+
+.cjy-chc-haveChoseBox .iconfont{
+  font-size: 18px;
+  cursor: pointer;
+}

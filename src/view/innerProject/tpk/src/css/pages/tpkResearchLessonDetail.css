@@ -1,0 +1,120 @@
+.cjy-rld-tableBox{
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.cjy-rld-headLine{
+  height: 60px;
+  /* border-bottom: 1px solid #d9d9d9; */
+}
+
+.cjy-rld-tableBox th,
+.cjy-rld-tableBox td{
+  font-size: 14px !important;
+}
+
+.cjy-rld-aBox{
+  color: #a6a6a6;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.cjy-rld-aBox .iconfont{
+  font-size: 20px;
+}
+
+.cjy-rld-numInfo{
+  display: inline-block;
+  font-size: 14px;
+  float: left;
+  margin-top: -40px;
+}
+
+.cjy-rld-slct2{
+  display: inline-block;
+  margin-left: 20px;
+  float: left;
+}
+
+.cjy-rld-teaIpt{
+  width: 170px;
+  height: 40px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.cjy-rld-selBox{
+  float: right;
+}
+.cjy-trld-planName{
+  width: 132px;
+}
+.cjy-trld-planTime{
+  width: 224px;
+}
+.cjy-trld-planInfo{
+  width: 284px;
+}
+.cjy-trld-planName, .cjy-trld-planTime, .cjy-trld-planInfo{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block; 
+}
+
+
+
+
+/* 表格及分页样式 */
+.cjy-rld-tableBox .ant-table{
+  font-size: 14px;
+  color:#4d4d4d;
+}
+.cjy-rld-tableBox .ant-table table{
+  text-align: center;
+}
+.cjy-rld-tableBox .ant-table-thead > tr > th,
+.cjy-rld-tableBox .ant-table-tbody > tr > td{
+  text-align: center;
+  padding:11px 8px;
+  border-bottom-color:#D9D9D9;
+}
+.cjy-rld-tableBox .ant-table-thead > tr > th:nth-child(1),
+.cjy-rld-tableBox .ant-table-tbody > tr > td:nth-child(1){
+  text-align: left;
+  padding-left: 20px;
+}
+.cjy-rld-tableBox .ant-table-thead > tr:nth-child(2n),
+.cjy-rld-tableBox .ant-table-tbody > tr:nth-child(2n){
+  background-color: #FAFAFA;
+}
+.cjy-rld-tableBox .ant-table-thead>tr>th{
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  background-color: #FAFAFA;
+}
+
+
+.cjy-rld-tableBox .ant-pagination {
+    font-size: 14px;
+    border: 1px solid #D9D9D9;
+    padding: 0 15px;
+    margin: 9px 0 21px 0;
+    border-radius: 4px;
+}
+.cjy-rld-tableBox .ant-pagination-item {
+    font-size: 14px;
+    margin-right: 0px;
+    border: 0px;
+    height: 36px;
+    min-width: 36px;
+    line-height: 36px;
+    border-radius: 0px;
+}
+
+.cjy-rld-tableBox .ant-spin-nested-loading > div > .ant-spin{
+  left:0;
+}

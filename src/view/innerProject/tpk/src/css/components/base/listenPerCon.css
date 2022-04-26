@@ -1,0 +1,44 @@
+.mj-lpc-clear{
+  clear: both;
+}
+
+.mj-lpc-nameCon{
+  width: 470px;
+  height: 480px;
+  margin-left: 36px;
+  margin-top: 30px;
+  text-align: left;
+  border: 1px solid #cccccc;
+  float: left;
+}
+
+.mj-lpc-nameCon .ant-tabs-bar{
+  margin-bottom: 0;
+}
+.mj-lpc-nameCon .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+  border-left: 0;
+  border-top: 0;
+  border-radius: 0;
+  text-align: center;
+  width: 100px;
+}
+.mj-lpc-nameCon .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab{
+  background: #ffffff;
+}
+.mj-lpc-nameCon .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-nav-container{
+  height: 50px;
+  line-height: 40px;
+  padding: 0;
+}
+.mj-lpc-nameCon .ant-tabs.ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active{
+  font-weight: bold;
+}
+.mj-lpc-nameCon .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content{
+  height: 430px;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+
+.mj-lpc-nameCon .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content .zq-lpn-perName{
+  max-height:320px;
+}

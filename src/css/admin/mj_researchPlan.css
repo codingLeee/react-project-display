@@ -1,0 +1,85 @@
+.cjy-rp-mt10{
+  margin-top: 10px;
+  text-align: left;
+}
+
+.cjy-rp-researchPlan{
+  width: calc(50% - 10px);
+  min-height: 290px;
+  background: #ffffff;
+  display: inline-block;
+  padding: 20px;
+  float: left;
+}
+
+.cjy-rp-clearfix::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+.cjy-rp-title{
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.cjy-rp-left{
+  float: left;
+}
+
+.cjy-rp-right{
+  float: right;
+}
+
+.cjy-rp-toDetail{
+  color: #505050
+}
+
+.cjy-rp-planEcht{
+  height: 200px;
+}
+
+.cjy-rp-pie{
+  width: 50%;
+  display: inline-block;
+}
+
+.cjy-rp-box{
+  width: 18px;
+  height: 12px;
+  display: inline-block;
+}
+
+.cjy-rp-legend{
+  width: 50%;
+  display: inline-block;
+  user-select:none;
+  padding-left: 20px;
+}
+
+.cjy-rp-finished{
+  background: #00cc88;
+}
+
+.cjy-rp-unstart{
+  background: #ffb728;
+}
+
+.cjy-rp-unfinished{
+  background: #f55450;
+}
+
+.cjy-rp-ing{
+  background: #00d2d9;
+}
+
+.cjy-rp-num{
+  font-size: 22px;
+  /* font-weight: 500; */
+}
+
+.cjy-rp-sbox{
+  width: 50px;
+  display: inline-block;
+  text-align: right;
+}

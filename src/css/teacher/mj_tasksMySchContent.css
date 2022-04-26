@@ -1,0 +1,88 @@
+/*
+ * @Author: 蒲飞 
+ * @Date: 2017-09-15 16:08:01 
+ * @Last Modified by: MinJ
+ * @Last Modified time: 2019-03-13 17:06:38
+ */
+ .pf-r-schedulecontent{
+   position: relative;
+   z-index: 5;
+ }
+.pf-r-schedulecontent .cjy-rct-headSpan{
+  /* width:134.75px; */
+  border-right:1px solid #C2C8CC;
+  font-size: 14px;
+  height: 52px;
+  line-height: 52px;
+}
+.pf-r-schedulecontent .cjy-rct-headSpan:last-child{
+  border-right:none;
+}
+.pf-r-schedulecontent .cjy-ci-item{
+  width:134.75px;
+  height:72px;
+  line-height: 72px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.pf-r-schedulecontent .cjy-rct-classNum{
+  width:133.75px;
+}
+.pf-r-schedulecontent .cjy-rct-classTable{
+  width:944px;
+}
+.pf-r-schedulecontent .cjy-rct-rightTop{
+  padding-right: 15px;
+  padding-top: 5px;
+}
+.pf-r-schedulecontent .cjy-rct-leftBtm{
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+.pf-r-schedulecontent .cjy-rct-headSpan1::before{
+  content: '';
+  display: inline-block;
+  width: 145px;
+  height: 1px;
+  background: #c2c8cc;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform:rotate(21deg);
+  -ms-transform:rotate(21deg); 	/* IE 9 */
+  -moz-transform:rotate(21deg); 	/* Firefox */
+  -webkit-transform:rotate(21deg); /* Safari 和 Chrome */
+  -o-transform:rotate(21deg); 	/* Opera */
+  transform-origin:top right;
+  -ms-transform-origin:top left;
+  -moz-transform-origin:top left;
+  -webkit-transform-origin:top left;
+  -o-transform-origin:top left;
+}
+.pf-r-schedulecontent .cjy-ci-item ul li{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  width:133.75px;
+}
+.pf-r-schedulecontent .cjy-ci-item ul{
+  display: block;
+  float: left;
+}
+.pf-t-alltip{
+  position: absolute;
+  z-index: 100;
+  color: #fff;
+  width: auto;
+  margin-top: 72px;
+  text-align: left;
+  border: 1px #e43 solid;
+}
+.pf-t-alltip>div{
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px #fff solid;
+}

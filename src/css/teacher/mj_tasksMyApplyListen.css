@@ -1,0 +1,31 @@
+.pf-tk-appgutter{
+  padding-left: 0px;
+  padding:13px 0;
+}
+.pf-tk-applist{
+  padding-top: 0px;
+}
+.pf-tk-lissize{
+  padding-top:5px;
+}
+.pf-tk-iconstyle{
+  padding-top:10px;
+  text-align: right;
+  padding-right: 0px;
+}
+.pf-tk-nopadding{
+  padding-bottom: 10px;
+}
+.pf-t-greenbutton.ant-btn-lg{
+  padding:0 8px;
+}
+.ant-progress-status-success .ant-progress-bg{
+  background-color: #17D193;
+}
+i.pf-t-iconstyle{
+  display: block;
+  float: right;
+}
+.pf-tk-gutter .icon{
+  font-size: 18px;
+}

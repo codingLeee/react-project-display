@@ -1,0 +1,30 @@
+.cjy-rs-fs14{
+  font-size: 14px;
+}
+
+.cjy-rs-btnGroup{
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.cjy-rs-btnGroup .ant-radio-button-wrapper{
+  height: auto;
+  background: transparent;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+.cjy-rs-btnGroup .ant-radio-button-wrapper-checked{
+  background:#26a5ff;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.cjy-rs-btnGroup .ant-radio-button-wrapper:not(:first-child)::before{
+  width: 0;
+}
+
+.cjy-rs-fs14 .ant-spin-nested-loading > div > .ant-spin{
+  left:0;
+}

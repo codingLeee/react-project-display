@@ -1,0 +1,23 @@
+.mj-ltt-clear{
+  clear: both;
+}
+
+.mj-ltt-teacherCon{
+  width: 860px;
+  height: 480px;
+  float: left;
+}
+.mj-lbt-teacherCon{
+  height: 322px;
+}
+.mj-ltt-teacherConOth{
+  margin-top: 16px;
+}
+
+ .mj-ltt-title{
+   font-size: 14px; 
+  display: block;
+  text-align: left;
+  margin-left: 22px;
+  margin-bottom: 4px;
+} 

@@ -1,0 +1,42 @@
+.pf-l-card{
+  width:279px;
+  height: 278px;
+  background-color: #fff;
+  padding: 20px;
+}
+.pf-l-cardtitle{
+  display: block;
+  font-size: 16px;
+  text-align: left;
+}
+.pf-l-pie{
+  display: block;
+  width:239px;
+  height: 150px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+.pf-l-gutter{
+  font-size: 14px;
+  padding-top:10px;
+}
+.pf-l-bigsize{
+  font-size: 27px;
+}
+.pf-l-agree{
+  color:#00CC88;
+}
+.pf-l-reject{
+  color:#FFB728;
+}
+.pf-l-piemiddle{
+  left: 67px;
+  top:96px;
+}
+.pf-l-smallsize{
+  font-size: 21px;
+  padding-top: 4px;
+}
+.pf-l-noTask{
+  width: 375px !important;
+}

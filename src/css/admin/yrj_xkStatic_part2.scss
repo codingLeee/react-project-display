@@ -1,0 +1,173 @@
+.xkStatic-part2{
+    height: 300px;
+    background:#eff3f5;
+    overflow: hidden;
+    .p2_left{
+        float: left;
+        background:#fff;
+        width: 22%;
+        height: 100%;
+    }
+    .leftclick{
+        background:red;
+    }
+    .p2_right{
+        position: relative;
+        width: 77%;
+        float: right;
+        background:#fff;
+        height: 100%;
+        .teacher_mes_showbox{
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            .loadingbox{
+                position: absolute;
+                background: rgba(255, 255, 255, 0.45);
+                width:150px;
+                height:30px;
+                top: 50%;
+                left: 50%;
+                z-index: 999;
+                text-align: center;
+               
+                transform: translateX(-50%) translateY(-50%);
+                svg{
+                    width: 30px;
+                    height: 30px;
+
+                }
+                P{
+                    width: 100%;
+                    text-align: center;
+                }
+               
+            }
+        }
+        .teacher_mes_box{
+            width:95%;
+            height:86%;
+            margin-top: 1.5%;
+            margin-left:2.5% ;
+           .nodata{
+               width: 100%;
+               height: 100%;
+               position: absolute;
+               left:0;
+               top:0;
+               margin: 0 auto;
+              z-index: 777;
+             
+               user-select: none;
+
+               img{
+                   position: relative;
+                   width: 15%;
+                   top: 50%;
+                   margin: 0 auto;
+                   display: block;
+                   transform: translateY(-50%);
+                  
+               }
+              
+           }
+            padding: 0;
+            li{
+                float: left;
+                border: 1px solid transparent;
+                box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+                border-color: #ccc;
+                width: 32%;
+                margin-right:2%;
+                height: 45%;
+                position: relative;
+                padding: 1%;
+                display:flex;align-items:center;
+                
+                .teacher_pic{
+                    width:30%;
+                    position: relative;
+                    border-radius: 50%;
+                    
+                }
+
+                .teacher_mes{
+                    span{
+                        display: inline-block;
+                        width: 100%;
+                        padding-left: 20%;
+                        color: #666;
+                    }
+                    span:nth-child(1){
+                        font-size: 24px;
+                    }
+                    .small_tb{
+                        position: absolute;
+                        background:#ffa273;
+                        right:1%;
+                        top:3%;
+                        padding: 1% 3%;
+                        color:white;
+                        text-align: center;
+                    }
+                }
+            
+            }
+            li:nth-child(3),li:nth-child(6){
+                margin-right: 0;
+            }
+            li:nth-child(3),li:nth-child(2),li:nth-child(1){
+                margin-bottom:2%;
+            }
+        }
+        .leftclickbutton{
+            position: absolute;
+            left: 0;
+            top:50% ;
+            height:23px;
+            width: 20px;
+            background:#31a9ff;
+            border-radius:0 2px 2px 0;
+            cursor: pointer;
+            z-index: 333;
+            transform: translateY(-50%);
+        }
+        .rightclickbutton{
+            
+            position: absolute;
+           
+            right: 0;
+            top:50% ;
+            height:23px;
+            width: 20px;
+            background:#31a9ff;
+            border-radius:0 2px 2px 0;
+            cursor: pointer;
+            z-index: 333;
+            transform: translateY(-50%) rotate(180deg);
+        }
+    
+        
+    }
+
+    
+    .geli{
+        height: 20px;
+        background:#eff3f5;
+    }
+
+    .echarts_box{
+        .echarts_ok{ 
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        p{
+            width: 100%;
+            text-align: center;
+            padding: 5%;
+            font-size: 16px;
+        }
+        
+    }
+}

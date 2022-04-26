@@ -1,0 +1,84 @@
+/*
+ * @Author: JC.Liu 
+ * @Date: 2019-03-04 10:21:57 
+ * @Last Modified by: JC.Liu
+ * @Last Modified time: 2019-03-19 15:25:15
+ * 老师 - 在线巡课 - 实时巡课 
+ */
+.JC-zxxk-ssxk {
+  display: flex;
+  height: 100%;
+
+  .JC-ss-left {
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+    background: #ffffff;
+    margin-right: 20px;
+  }
+
+  .JC-ss-right {
+    flex: 1;
+    position: relative;
+    line-height: 100%;
+
+    .JC-v-info {
+      line-height: 60px;
+      background: #ffffff;
+
+      .JC-v-i {
+        width: 1000px;
+        margin: 0 auto;
+
+        .ant-row {
+          margin: 0 !important;
+
+          div {
+            padding-left: 0 !important;
+            padding-right: 8px !important;
+          }
+
+          &>div:nth-child(1),
+          &>div:nth-child(2),
+          &>div:nth-child(3) {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap
+          }
+
+          .ant-select-enabled {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    #JC_player {
+      margin: auto
+    }
+
+    .JC-ss-footer {
+      line-height: 60px;
+      background: #ffffff;
+
+      .JC-ss-setting {
+        width: 1000px;
+        margin: 0 auto;
+
+        &>div {
+          display: inline-block;
+          margin-right: 50px;
+        }
+
+        .ant-switch-inner {
+          width: 24px;
+        }
+
+        .ant-select {
+          width: 80px;
+        }
+      }
+    }
+  }
+
+}

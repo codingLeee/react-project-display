@@ -1,0 +1,34 @@
+.gwj-discipline-box{
+    background-color: #eff3f5;
+    padding-bottom: 10px;
+}
+.gwj-discipline{
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.gwj-discipline>div{
+    display: inline-block;
+}
+.gwj-discipline>div:first-child{
+    width: 20%;
+    padding-right: 20px;
+}
+.gwj-discipline>div:nth-child(2){
+    width: 80%;
+}
+.gwj-discipline>div:nth-child(2)>div{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.gwj-discipline>div:nth-child(2)>div>span{
+    color: #888888;
+}
+.gwj-discipline>div:nth-child(2)>div:nth-child(2)>span:nth-child(2){
+    color: red;
+    font-size: 18px;
+}
+.gwj-discipline>div:nth-child(2)>div:nth-child(4)>span:nth-of-type(even){
+    color: rgba(0,0,0,0.65);
+    margin-right: 16%;
+}

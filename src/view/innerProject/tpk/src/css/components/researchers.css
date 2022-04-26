@@ -1,0 +1,66 @@
+.cjy-r-researchers{
+  width: 1140px;
+  min-height: 388px;
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cjy-r-clearfix::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+.cjy-r-title{
+  font-size: 16px;
+}
+
+.cjy-r-left{
+  float: left;
+}
+
+.cjy-r-right{
+  float: right;
+} 
+
+.cjy-r-toDetail{
+  color: #505050
+}
+
+.cjy-r-finishPercent{
+    display: inline-block;
+    width: 220px;
+    padding-right: 40px;
+    padding-top: 20px;
+    float: left;
+    padding-left: 40px;
+}
+
+.cjy-r-teacherInfo{
+  display: inline-block;
+  width: 880px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.cjy-r-textcenter{
+  text-align: center;
+}
+
+.cjy-r-textleft{
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.cjy-r-clearfix::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+.cjy-r-num{
+  font-size: 22px;
+  /* font-weight: 500; */
+}

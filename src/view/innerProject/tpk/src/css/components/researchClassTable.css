@@ -1,0 +1,89 @@
+.cjy-rct-tableHead{
+  background: #f5f8fa;
+  border: 1px solid #c2c8cc;
+}
+.cjy-rct-tableHead::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.cjy-rct-headSpan{
+  width: 105px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.cjy-rct-headSpan1{
+  position: relative;
+}
+
+.cjy-rct-headSpan1::before{
+  content: '';
+  display: inline-block;
+  width: 116px;
+  height: 1px;
+  background: #c2c8cc;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform:rotate(25deg);
+  -ms-transform:rotate(25deg); 	/* IE 9 */
+  -moz-transform:rotate(25deg); 	/* Firefox */
+  -webkit-transform:rotate(25deg); /* Safari 和 Chrome */
+  -o-transform:rotate(25deg); 	/* Opera */
+  transform-origin:top left;
+  -ms-transform-origin:top left;
+  -moz-transform-origin:top left;
+  -webkit-transform-origin:top left;
+  -o-transform-origin:top left;
+}
+
+.cjy-rct-rightTop,
+.cjy-rct-leftBtm{
+  display: block;
+  height: 25px;
+  line-height: 25px;
+}
+
+.cjy-rct-rightTop{
+  text-align: right;
+}
+
+.cjy-rct-leftBtm{
+  text-align: left;
+}
+
+.cjy-rct-tableBox .ant-table-thead > tr > th,
+.cjy-rct-tableBox .ant-table-tbody > tr > td{
+  text-align: center;
+  font-size: 14px;
+}
+
+.cjy-rct-tableBox .ant-table-bordered .ant-table-thead > tr > th,
+.cjy-rct-tableBox .ant-table-bordered .ant-table-tbody > tr > td{
+  border-color: #c2c8cc;
+}
+
+.cjy-rct-classTable::after,
+.cjy-rct-table::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.cjy-rct-classNum{
+  width: 105px;
+  float: left;
+}
+
+.cjy-rct-classTable{
+  width: 735px;
+  float: left;
+}
+
+.cjy-rct-table{
+  border-left: 1px solid #c2c8cc;
+  border-right: 1px solid #c2c8cc;
+}

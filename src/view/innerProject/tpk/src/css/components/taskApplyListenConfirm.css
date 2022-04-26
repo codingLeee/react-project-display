@@ -1,0 +1,21 @@
+/*
+ * @Author: 蒲飞 
+ * @Date: 2017-09-21 19:38:26 
+ * @Last Modified by: 蒲飞
+ * @Last Modified time: 2017-09-21 20:07:32
+ */
+
+.pf-rap-confirm{
+  height:40px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.pf-rap-confirm .ant-btn{
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+}
+.pf-rap-confirm .ant-btn.ant-btn-primary{
+  background-color: #14CC8F;
+  border-color: #14CC8F;
+} 

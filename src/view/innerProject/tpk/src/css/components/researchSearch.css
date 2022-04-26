@@ -1,0 +1,15 @@
+.cjy-rs-selectBox{
+  float: right;
+}
+
+.cjy-rs-selectBox .ant-input{
+  width: 224px;
+  height: 40px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.cjy-rs-selectBox .ant-btn{
+  width: 70px;
+  height: 40px;
+  font-size: 14px;
+}

@@ -1,0 +1,18 @@
+.gwj-input{
+    height: 120px;
+    background-color: #fff;
+}
+.gwj-input .ant-input{
+    margin: 20px;
+    height: 80px;
+    width: 88%;
+    padding: 18px 12px;
+}
+.gwj-input .ant-btn{
+    height: 80px;
+    width: 8%;
+    margin: 20px 0 ;
+    background-color: #14cc8f;
+    color: #fff;
+    font-size: 16px;
+}

@@ -1,0 +1,55 @@
+.mj-lal-pieCon{
+  width: 260px;
+  height: 480px;
+  float: left;
+}
+.mj-lbt-pieCon{
+  height: 322px;
+}
+.mj-lal-pie{
+  height: 226px;
+  width: 140px;
+  margin-left: 60px;
+}
+
+.mj-ltc-data{
+  margin-top: 0px;
+  color: #666666;
+}
+.mj-ltc-data span:nth-child(1){
+  font-size: 14px;
+}
+.mj-ltc-data span:nth-child(2){
+  font-size: 22px;
+  margin-left: 18px;
+}
+
+
+
+.mj-lal-data{
+    margin-top: 0px;
+    color: #666666;
+    width: 170px;
+    margin-left: 40px;
+    text-align: left;
+}
+.mj-lal-span{
+  width: 64px;
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+}
+.mj-lal-spanDiv{
+  width: 86px;
+    display: inline-block;
+    text-align: right;
+    margin-left:18px;
+}
+.mj-lal-spanDiv span:nth-child(1){
+  width: 66px;
+  font-size: 22px;
+  display: inline-block;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+}

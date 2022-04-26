@@ -1,0 +1,135 @@
+.cjy-rcm-tableBox{
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cjy-rcm-headLine{
+  height: 60px;
+  /* border-bottom: 1px solid #d9d9d9; */
+}
+
+.cjy-rcm-headLine > .ant-btn{
+  width: 100px;
+  height: 40px;
+  background: #14cc8f;
+  color: #ffffff;
+  float: left;
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+.cjy-rcm-tableBox th,
+.cjy-rcm-tableBox td{
+  font-size: 14px !important;
+}
+
+ /* .cjy-rcm-tableBox .ant-table-thead > tr.ant-table-row-hover > td,
+.cjy-rcm-tableBox .ant-table-tbody > tr.ant-table-row-hover > td, 
+ .cjy-rcm-tableBox .ant-table-thead > tr:hover > td,
+.cjy-rcm-tableBox .ant-table-tbody > tr:hover > td 
+ {
+  background: #ffffff;
+}  */
+
+.cjy-rcm-aBox{
+  color: #a6a6a6;
+  margin-right: 4px;
+  font-size: 14px;
+}
+
+.cjy-rcm-aBox .icon{
+  font-size: 16px;
+}
+
+.cjy-rcm-headLine > .ant-btn:hover{
+  background-color: #7EE5C4;
+  border-color: #7EE5C4;
+}
+
+.cjy-rcm-modal{
+  width: 774px !important;
+}
+.cjy-rcm-modal .ant-modal-header{
+  background-color: #273138;
+}
+.cjy-rcm-modal .ant-modal-title,
+.cjy-rcm-modal .ant-modal-close{
+  color: #ffffff;
+}
+
+
+
+/* 表格及分页样式 */
+.cjy-trcm-table .ant-table{
+  font-size: 14px;
+  color:#4d4d4d;
+}
+.cjy-trcm-table .ant-table table{
+  text-align: center;
+}
+ .cjy-trcm-table .ant-table-thead > tr > th, 
+ .cjy-trcm-table .ant-table-tbody > tr > td{ 
+   /* text-align: left; */
+  padding:11px 8px;
+  border-bottom-color:#D9D9D9;
+} 
+ .cjy-trcm-table .ant-table-tbody > tr > td{ 
+   text-align: left;
+} 
+ .cjy-trcm-table .ant-table-thead > tr > th {
+   text-align: center;
+ }
+
+
+  .cjy-trcm-table .ant-table-thead > tr:nth-child(2n),
+.cjy-trcm-table .ant-table-tbody > tr:nth-child(2n){
+  background-color: #FAFAFA;
+}  
+.cjy-trcm-table .ant-table-thead > tr:nth-child(2n):hover > td,
+.cjy-trcm-table .ant-table-tbody > tr:nth-child(2n):hover > td{
+  background-color: #FAFAFA;
+}
+.cjy-trcm-table .ant-table-thead > tr:nth-child(2n-1):hover > td,
+.cjy-trcm-table .ant-table-tbody > tr:nth-child(2n-1):hover > td{
+  background-color: #ffffff;
+}  
+.cjy-trcm-table .ant-table-thead > tr:hover > td[rowspan],
+.cjy-trcm-table .ant-table-tbody > tr:hover > td[rowspan]{
+  background-color: #ffffff;
+} 
+
+  .cjy-trcm-table .ant-table-tbody > tr > td[rowspan]{ 
+  background-color:#ffffff;
+}   
+
+ .cjy-trcm-table .ant-table-thead>tr>th{
+  border-bottom: 1px solid #D9D9D9;
+  background-color: #FAFAFA;
+  border-right: 0;
+} 
+
+
+.cjy-trcm-table .ant-pagination {
+    font-size: 14px;
+    border: 1px solid #D9D9D9;
+    padding: 0 15px;
+    margin: 9px 0 21px 0;
+    border-radius: 4px;
+}
+.cjy-trcm-table .ant-pagination-item {
+    font-size: 14px;
+    margin-right: 0px;
+    border: 0px;
+    height: 36px;
+    min-width: 36px;
+    line-height: 36px;
+    border-radius: 0px;
+}
+
+.cjy-rcm-headLine .ant-btn:active,
+.cjy-rcm-headLine .ant-btn:focus{
+  border: none;
+}

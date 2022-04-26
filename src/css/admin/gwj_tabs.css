@@ -1,0 +1,19 @@
+.gwj-tabs-box .ant-tabs-nav-container,.gwj-tabs-box .ant-tabs-nav-wrap,.gwj-tabs-box .ant-tabs-nav-scroll,.gwj-tabs-box .ant-tabs-nav{
+    height: 80px;
+} 
+.gwj-tabs-box .ant-tabs-nav>div:first-child{
+    line-height: 26px;
+    text-align: center;
+    margin-top: 15px;
+}
+.gwj-tabs-box .ant-tabs-ink-bar.ant-tabs-ink-bar-animated{
+    display: none!important;
+}
+.gwj-tabs-box .ant-tabs-tab.ant-tabs-tab-active{
+    color: #fff;
+    background-color: #26a5ff;
+    border-radius: 5px 5px;
+}
+.gwj-tabs-box .ant-tabs-bar{
+    margin-bottom: 0;
+}

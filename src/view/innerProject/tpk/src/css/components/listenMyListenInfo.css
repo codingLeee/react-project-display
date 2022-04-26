@@ -1,0 +1,18 @@
+.pf-l-listotaltitle{
+  display: block;
+  left: left;
+  font-size: 16px;
+  padding-top:20px;
+}
+.pf-l-listotal{
+  font-size: 27px;
+  display: block;
+  left: left;
+  padding:10px 0;
+}
+.ant-btn-lg{
+  padding: 0 10px;
+}
+.pf-l-likelisten{
+  margin-top:35px;
+}

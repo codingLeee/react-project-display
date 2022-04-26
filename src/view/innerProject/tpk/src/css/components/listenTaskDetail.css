@@ -1,0 +1,40 @@
+.mj-lts-modalCon{
+  width: 780px !important;
+}
+.mj-lts-modal{
+   width: 748px; 
+  font-size: 18px;
+}
+
+.mj-lts-modalCon .ant-modal-body{
+  padding: 0 16px;
+}
+
+.mj-lts-modTitle{
+  float: left;
+  margin-top: 16px;
+  width: 90px;
+  text-align: right;
+}
+.mj-lts-modName{
+  float: left;
+  width: 658px;
+  /* margin-left: -28px; */
+}
+.mj-lts-modName span{
+  float: left;
+  margin: 16px 10px 0 0;
+  /* margin-right: 10px;
+  margin-top: 16px; */
+  width: 100px;
+  /* border: 1px solid #cccccc; */
+}
+
+.mj-lts-modTip{
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.mj-lts-modalCon .ant-modal-footer button:nth-child(1){
+  display: none;
+}

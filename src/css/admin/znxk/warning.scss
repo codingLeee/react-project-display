@@ -1,0 +1,469 @@
+.ll-AllInfo{
+    padding: 20px;
+}
+
+.ll-warnTop{
+    height: 50px;
+    width: 100%;
+    background-color: #eff3f5;
+    color: #7c7c7c;
+    font-size: 18px;
+    span{
+       color:#3498db;
+     }
+}
+.ll-warnContentTop{
+    height: 176px;
+}
+.ll-IDPhoto{
+    display: inline-block;
+    height: 100%;
+    width:136px;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+   
+}
+
+
+
+
+.ll-IDInfo{
+    display: inline-block;
+    height: 100%;
+    width:  calc(100% - 166px);
+    padding: 15px 0 0 15px;
+    margin-left: 30px;
+    background-color: #f5f8fa;
+    vertical-align:top;
+    position: relative;
+   .ll-IDInfospan{
+       height: 30px;
+       line-height: 30px;
+        span{
+            color: red;
+        }
+        .ll-arriveTime{
+            margin-left: 80px;
+            color: #333;
+        }
+
+   }
+   .ll-courseLength{
+     
+      padding-right: 60%;
+       overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+   }
+   .ll-btnClick{
+    position: absolute;
+    top: 50%;
+    left:80%;
+    .ll-nomal{
+        width: 70px;
+        height: 40px;
+        color: #fff;
+        margin-right: 10px;
+      
+       }
+       .ll-innomal{
+        width: 70px;
+        height: 40px;
+        color: #fff;
+      
+       }
+   }
+  
+  
+}
+
+.ll-AllImgInfo{
+    padding:0 20px 20px 20px;
+   .ll-AllImg{
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .ll-ImgInfo{
+           
+            width: 100%;
+            height: 24px;
+            position: relative;
+            top:-24px;
+            line-height: 24px;
+            color: #e2e4e4;
+            background: rgba(0, 0, 0, 0.77);
+          
+        }
+        .ll-ImgLateTime{
+            width: 70px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            color: #fff;
+            border-top-left-radius:12px; 
+            border-bottom-left-radius:12px; 
+            position: absolute;
+            top:0px;
+            right: 8px;
+            background-color: #611616;
+        }
+        .ll-load{
+            height: 100%;
+            width: 100%;
+            padding: 76px 0 0 40%;
+            border:1px solid #ccc
+        }
+   }
+
+
+}
+.ll-ImgInfo{
+     padding: 0 10px;
+    
+    .ll-ImgLastSpan{
+        text-align: right;
+    }
+}
+.ll-buttom{
+    position: relative;
+    padding: 0 10px;
+    margin: 16px 0;
+    span{
+        height: 38px;
+        line-height: 38px;
+    }
+    .ll-Pg{
+        display: inline-block;
+        position: absolute;
+        right:20px;
+    }
+}
+
+.ll-imgModal{
+    min-width: 1366px;
+    background: rgba(0, 0, 0, 0.77);
+        top: 0px !important;
+    .ant-modal-header{
+        display: none
+    }
+    .ant-modal-body{
+        height: 100%;
+        padding: 0px;
+    background: rgba(0, 0, 0, 0.77);
+    }
+    .anticon svg{
+        display: none;
+    }
+    .ant-modal-content{
+        height: 100%;
+    }
+}
+
+
+
+.ll-TopROW{
+     
+    width: 100%;
+    .ll_TopRL{
+        margin: 80px 0 60px 0;
+        height: 1.5px;
+        box-shadow: 0 0 5px rgb(34, 99, 117) ;
+        background: linear-gradient(to right, #233c52 5%, #355d7c 20% ,#366d97 50%,#4b8bbd 70%)
+    }
+    .ll_TopLR{
+        background: linear-gradient(to left, #233c52 5%, #355d7c 20% ,#366d97 50%,#4b8bbd 70%)
+
+    }
+    .ll_TopM{  
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+        text-align: center;
+        color: #fff;
+        background-color: #273138;
+        margin: 55px 0 35px 0;
+        border-radius: 25px;
+
+    }
+}
+
+
+
+.ll-imgModal-Mid{
+    height: calc(100% - 120px);;
+    width: 100%;
+    text-align: center;
+//    SVG{
+//        height: 808px;
+//        color: rgb(213, 220, 224);
+//        font-size: 80px;
+//        line-height: 808px;
+//    }
+   .ll-Mid-Mid{
+       height:90%;
+       background-color: #273138;
+       img{
+           height: 100%;
+           width: 86%;
+       }
+       
+   }
+}
+
+.ll-Mid-Bottom{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    background: #273138;
+
+}
+.ll-MBottom-Row{
+    padding:0 20px;
+    height: 100%;
+    color: #fff;
+    .ll-MBottom-Rol{
+        height: 100%;
+        text-align: left;
+        line-height: 50px;
+    }
+}
+
+.ll-ModalClose{
+    background-color: #b10f0f;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    border-radius: 50%;
+    z-index: 1100;
+   SVG{
+    height: 40px ;
+    font-size: 26px;
+   color: #fff;
+   }
+}
+
+.ll-TabsTop{
+    .ant-tabs-nav-container{
+        padding: 5px 0;
+    }
+}
+
+
+// .ll-TabsButton{
+//     background: #14cc8f;
+// }
+.ll-btn{
+    &:last-child{
+        margin:2px 10px 0 5px;
+    }
+}
+.ll-button{
+    width: 70px;
+    height: 36px;
+    color: #fff;
+
+}
+.ll-btngreen{
+    background: #14cc8f !important;
+    &:hover{
+        background: #14cc8f !important;
+        color: #fff !important;
+        border-color: #14cc8f
+
+    }
+   &:focus{
+    background: #14cc8f !important;
+    color: #fff !important;
+    border-color: #14cc8f
+   }
+}
+
+.ll-bule{
+    width: 70px;
+    height: 36px;
+        color: #fff;
+        background: #3498db !important;
+        margin-left: 20px;
+        &:hover{
+            background: #3498db !important;
+            color: #fff !important;
+            border-color: #3498db
+    
+        }
+       &:focus{
+        background: #3498db !important;
+        color: #fff !important;
+        border-color: #3498db
+       }
+}
+
+.ll-btnerr{
+    width: 70px;
+    height: 36px;
+    color: #fff;
+   
+}
+.ll-btnred{
+    background: #ff5a3f !important;
+    &:hover{
+        background: #ff5a3f !important;
+        color: #fff !important;
+        border-color: #ff5a3f
+
+    }
+   &:focus{
+    background: #ff5a3f !important;
+    color: #fff !important;
+    border-color: #ff5a3f
+   }
+}
+.ll-tableBody{
+    padding: 10px 20px;
+    overflow: hidden;
+    .ant-table-row{
+        &:nth-child(even){
+            background:#f5f8fa;
+        }
+    }
+    .ll-tableSelect{
+        margin-right: 10px;
+    }
+}
+.ll-Table{
+    margin: 20px 0;
+    .ant-table-row{
+      td{
+       div{
+        margin: 0 auto;
+       }
+      }
+    }
+  
+}
+
+.ll-tableContent{
+    width: 160px;
+    // border: 1px solid red;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.ll-Attendance{
+    width: 260px;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    // background-color: #14cc8f;
+    position: absolute;
+    top: 60%;
+    left:26%;
+    div{
+        width: 80px;
+        padding:0 5px 0 5px;
+        // border: 1px solid red;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+    }
+    SVG{
+        font-size: 20px;
+        color: #3498db;
+        position: absolute;
+        top: -12px;
+        right: 10px;
+        z-index: 1000;
+    }
+}
+.ll-mulAttModal{
+    .ant-modal-content{
+        width: 400px;
+    }
+    .ant-modal-body{
+        height: 180px;
+       
+    }
+    .ant-modal-footer{
+        display: none
+    }
+    .ant-modal-close{
+        // display: none
+        color: #e74c3c
+    }
+    
+    .ll-modalDiv{
+        text-align: center;
+        font-size: 16px;
+        padding-top: 10%;
+    }
+}
+
+.ll-wzyTop{
+    margin-top: 20px;
+    height: 70px;
+    padding: 5px 0;
+    background-color: #f5f8fa;
+    text-align: center;
+   color: #c1c7cb;
+   div{
+       height: 30px;
+       line-height: 30px;
+   }
+   span{
+       &:hover{
+           cursor: pointer;
+       }
+   }
+}
+
+.ll-wzySpan{
+    span{
+        &:first-child {
+            color: #4d4d4d
+            
+        }
+        &:nth-child(2) {
+            color: #ff5a3f
+            
+        }
+        &:last-child {
+            color: #14cc8f
+            
+        }
+}
+}
+
+.ll-changeColor{
+    div{
+        background-color: rgba(118, 214, 226, 0.2);
+    }   
+}
+
+.ll-PageChange{
+    height: 38px;
+    line-height: 38px;
+    padding:9px 10px;
+    border-radius: 5px;
+ border: 1px solid #d9d9d9;
+  .ant-pagination-item-active {
+    background-color: #3498db
+  }
+  &：hover{
+    border-color: #1890ff;
+   
+  }
+}
+

@@ -1,0 +1,195 @@
+/*
+ * @Author: zhengqi 
+ * @Date: 2018-11-11 11:16:09 
+ * @Last Modified by: lxx
+ * @Last Modified time: 2018-11-11 21:06:32
+ * ai数据样式
+ */
+
+.zq-aid-container {
+    padding: 20px 15px;
+}
+
+.zq-aid-tit {
+    height: 40px;
+    width: 140px;
+    background-color: #dbdbdb;
+    position: relative;
+    font-size: 16px;
+    color: #5a6165;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.zq-aid-tit::after {
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-left-color: #dbdbdb;
+}
+
+.zq-aid-tit::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #c9c9ca;
+    border-left: 20px solid transparent;
+}
+
+.zq-gutter-row {
+    padding: 0 5px;
+    height: 100%;
+}
+
+.zq-gutter-row>div {
+    background-color: #fff;
+    height: 100%;
+}
+
+.zq-ait-personTotal {
+    padding-top: 20px;
+}
+
+
+/**互动、学生练习统计*/
+
+.zq-intion-container>p {
+    color: #81858a;
+}
+
+.zq-intion-text {
+    display: flex;
+    margin-bottom: 4px;
+    padding-top: 6px;
+}
+
+.zq-intion-text>p {
+    flex: 1;
+    height: 30px;
+    line-height: 30px;
+}
+
+.zq-intion-text>p:last-child {
+    text-align: right;
+}
+
+.zq-intion-text span {
+    font-size: 18px;
+}
+
+.zq-count-circle {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 52px;
+}
+
+.zq-count-circle>div {
+    flex: 1;
+    position: relative;
+    height: 160px;
+}
+
+.zq-count-circle>div>div {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    width: 92px;
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+    border: 1px dashed #5a6165;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.zq-count-circle>div:last-child>div:last-child {
+    right: 36px;
+}
+
+.zq-count-circle>div>div>p {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 118px;
+    height: 118px;
+    line-height: 118px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+
+/*line*/
+
+.zq-line-bc {
+    width: 100%;
+    height: 6px;
+    background-color: #ebebeb;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.zq-line-bc>span {
+    position: absolute;
+    height: 6px;
+    top: 0;
+    background-color: #00cd89;
+}
+
+.zq-lin-alipers {
+    width: 100%;
+    height: 36px;
+    position: relative;
+}
+
+.zq-lin-alipers>div {
+    position: absolute;
+    top: 0;
+    width: 4px;
+    text-align: center;
+    font-size: 12px;
+    color: #dbdbdb;
+}
+
+.zq-lin-alipers>div>span {
+    margin-left: -5px;
+}
+
+.zq-lin-alipers>div:first-child>span,
+.zq-lin-alipers>div:nth-child(2)>span {
+    margin-left: -1px;
+}
+
+.zq-lin-alipers>div:last-child {
+    margin-left: -4px;
+}
+
+.progress .ant-progress-inner {
+    padding: 6px;
+    background: #FDFDFD;
+    border: 1px solid #BBC2C0;
+}
+
+.progress .ant-progress-success-bg,
+.progress .ant-progress-bg {
+    background-color: #F29802;
+    height: 13px !important;
+}
+
+.zq-no-data {
+    height: 275px;
+    width: 100%;
+    background: #fff url('./../img/nodata1.png') 50% 24%/170px 170px no-repeat;
+    border-bottom: 0
+}

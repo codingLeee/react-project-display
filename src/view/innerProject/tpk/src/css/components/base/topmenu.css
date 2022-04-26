@@ -1,0 +1,48 @@
+.xt-header{
+  width: 1140px;
+  height: 72px;
+  margin: auto;
+  background-color: transparent;
+}
+
+.xt-header .xt-menu{
+  float: left;
+  line-height: 72px;
+  height: 72px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  border-bottom: 0;
+}
+
+.xt-header .xt-menu > li{
+  width: 120px;
+  padding: 0;
+  border-bottom: 0;
+  text-align: center;
+}
+
+.xt-header .xt-menu > li a{
+  color: #fff;
+}
+
+.xt-header .xt-menu > li.ant-menu-item-active,
+.xt-header .xt-menu > li:hover{
+  color: #ddd;
+  border-bottom: 0;
+}
+
+.xt-header .xt-menu > li.ant-menu-item-active a,
+.xt-header .xt-menu > li:hover a{
+  color: #ddd;
+}
+
+.xt-header .xt-menu > li.ant-menu-item-selected{
+  border-bottom: 0;
+  color: #fff;
+  background-color: #000;
+}
+
+.xt-header .xt-menu > li.ant-menu-item-selected a{
+  color: #fff;
+}

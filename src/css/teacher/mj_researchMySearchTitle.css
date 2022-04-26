@@ -1,0 +1,71 @@
+/*
+ * @Author: 蒲飞 
+ * @Date: 2017-09-19 10:14:00 
+ * @Last Modified by: 蒲飞
+ * @Last Modified time: 2017-10-18 17:07:02
+ */
+
+.pf-t-basefont {
+    font-size: 14px;
+    display: block;
+    padding-top: 10px;
+    float: left;
+}
+
+.pf-r-searchtitle {
+    height: 40px;
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.pf-r-searchtitledrop {
+    display: block;
+    float: left;
+    height: 40px;
+    padding-right: 40px;
+}
+
+.pf-r-searchtitle .ant-select-selection--single {
+    height: 40px;
+    width: 160px;
+    display: block;
+    float: left;
+    border-color: #B3B3B3;
+}
+
+.pf-r-searchtitle .ant-select-selection-selected-value {
+    font-size: 14px;
+}
+
+.pf-r-searchtitle .ant-select-selection__rendered {
+    margin-left: 10px;
+    margin-right: 15px;
+    line-height: 40px;
+}
+
+.pd-r-searchtitlesearch {
+    display: block;
+    float: right;
+}
+
+.pd-r-searchtitlesearch .ant-input {
+    width: 234px;
+    height: 40px;
+    font-size: 14px;
+    border-color: #B3B3B3;
+}
+
+.pd-r-searchtitlesearch .ant-btn-lg {
+    height: 40px;
+    width: 70px;
+    border-color: #B3B3B3;
+    margin-left: 9px;
+    vertical-align: bottom;
+}
+
+.ant-select-dropdown-menu-item {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

@@ -1,0 +1,131 @@
+.cjy-raso-addScore{
+  width: 714px;
+  padding: 20px 20px 0;
+  font-size: 14px;
+}
+
+.cjy-raso-ScorePrtBox input{
+  width: 530px;
+  height: 40px;
+}
+
+.cjy-raso-ScorePrtBox input,
+.cjy-raso-ScorePrtBox span{
+  font-size: 14px;
+}
+
+.cjy-raso-childOpt span{
+  font-size: 14px;
+}
+
+.cjy-raso-totalNum{
+  display: inline-block;
+  width: 40px;
+  height: 40px;    
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50px;
+  background: #26a5ff;
+  color: #ffffff;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+.cjy-raso-addBtnBox{
+  margin-left: 120px;
+  margin-top: 35px;
+}
+
+.cjy-raso-addBtnBox a:focus{
+  text-decoration: none;
+}
+
+.cjy-raso-scoreChildBox{
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.cjy-raso-childOpt{
+  margin-top: 20px;
+}
+
+.cjy-raso-titleLine .icon{
+  font-size: 18px;
+  color: #f55450;
+  margin-left: 57px;
+  cursor: pointer;
+}
+
+.cjy-raso-childName{
+  width: 380px;
+  height: 40px;
+  vertical-align: top;
+}
+
+.cjy-raso-score{
+  width: 54px;
+  margin-left: 10px;
+  height: 40px;
+  vertical-align: top;
+}
+
+.cjy-raso-score .ant-input-number-input{
+  height: 38px;
+  line-height: 38px;
+}
+
+.cjy-raso-scoreStanBox{
+  margin-top: 20px;
+}
+
+.cjy-raso-scoreStan{
+  width: 445px;
+  height: 145px !important;
+  vertical-align: top !important;
+  resize: none;
+}
+
+.cjy-raso-scoreStanBox span{
+  margin-left: 84px;
+}
+
+.cjy-raso-titleLine .ant-form-item{
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.cjy-raso-footer{
+  padding: 30px 16px;
+  text-align: center;
+}
+
+.cjy-raso-btn{
+  padding: 0 32px !important;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.cjy-raso-save{
+  background-color: #14CC8F;
+  border-color: #14CC8F;
+  color: #ffffff;
+}
+
+.cjy-raso-cancel{
+  margin-left: 20px;
+}
+
+.cjy-raso-save:hover,
+.cjy-raso-save:focus,
+.cjy-raso-save:active{
+  background-color: #7EE5C4;
+  border-color: #7EE5C4;
+  color: #ffffff;
+}
+
+.cjy-raso-addScore .ant-input,
+.cjy-raso-addScore .ant-input-number-input{
+  font-size: 14px;
+}

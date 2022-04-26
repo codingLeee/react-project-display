@@ -1,0 +1,24 @@
+/*
+ * @Author: JC.Liu 
+ * @Date: 2019-03-25 11:03:35 
+ * @Last Modified by: JC.Liu
+ * @Last Modified time: 2019-03-25 12:43:52
+ * 秩序 学院报表
+ */
+.JC-zx-xybb {
+  width: calc(100%);
+  height: 100%;
+  background: #ffffff;
+
+  .ant-row {
+    margin: 0 !important;
+
+    div {
+      padding: 0 !important;
+    }
+
+    .ant-select {
+      width: 50%;
+    }
+  }
+}

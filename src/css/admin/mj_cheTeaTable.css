@@ -1,0 +1,129 @@
+/* 清除浮动 */
+.mj-clearfix:after{
+  content:"";
+  display:block;
+  visibility:hidden;
+  clear:both;
+  height:0;
+}
+/* 溢出省略*/
+.mj-ellip{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 头部 */
+.mj-tt-headCon{
+  margin: 0 20px;
+  border-top: 1px solid #c2c8cc;
+  border-left: 1px solid #c2c8cc;
+  background-color: #f5f9fb;
+  color: #8c8d8d;
+}
+.mj-tt-headSpan{
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  /* width: 12.5%; */
+  height: 50px;
+  vertical-align: bottom;
+  border-right: 1px solid #c2c8cc;
+}
+.mj-tt-headSpan span{
+  display: block;
+  height: 24px;
+  line-height: 24px;
+}
+.mj-tt-headSpan span:nth-child(1){
+  text-align: right;
+  padding-right: 10px;
+}
+.mj-tt-headSpan span:nth-child(2){
+  text-align: left;
+  padding-left: 10px;
+}
+.mj-tt-headSpan::before{
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 120px;
+  /* width: 136px; */
+  height: 1px;
+  background-color: #c2c8cc;
+  top: 0;
+  left: 0;
+  transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  -moz-transform: rotate(24deg);
+  -webkit-transform: rotate(24deg);
+  -o-transform: rotate(24deg);
+  transform-origin: top left;
+  -ms-transform-origin: top left;
+  -moz-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+}
+
+.mj-tt-tableCon{
+  padding: 0 20px;
+}
+.mj-tt-title{
+  display: inline-block;
+  padding-top: 6px;
+  width: calc((100% - 110px) / 7);
+  /* width: 12.5%; */
+  height: 50px;
+  text-align: center;
+  border-right: 1px solid #c2c8cc;
+}
+.mj-tt-title span{
+  display: block;
+}
+/* 节次 */
+.mj-tt-lessonCon{
+  float: left;
+  width: 111px;
+  /* width: 12.5%; */
+  text-align: center;
+  line-height: 64px;
+  color: #8c8d8d;
+  border: 1px solid #c2c8cc;
+  border-top: 0;
+  background-color: #f5f9fb;
+}
+.mj-tt-lessonCon div{
+  height: 64px;
+  border-top: 1px solid #c2c8cc;
+}
+/* 内容 */
+.mj-tt-lessons{
+  float: left;
+  /* width: 87.5%; */
+   width: calc(100% - 111px); 
+  border-bottom: 1px solid #c2c8cc;
+}
+.mj-tt-lesson{
+  float: left;
+  padding-top: 10px;
+   width: calc(100% / 7); 
+  height: 64px;
+  color: #8c8d8d;
+  text-align: center;
+  border-top: 1px solid #c2c8cc;
+  border-right: 1px solid #c2c8cc;
+}
+.mj-tt-now{
+  color: #31aaff;
+  background-color: #ebf7ff;
+}
+.mj-tt-no{
+  color: #8c8d8d;
+  cursor: not-allowed;
+}
+.mj-tt-oblique:hover > p{
+  font-style: oblique;
+}
+.mj-tt-lesson p{
+  margin: 0;
+}

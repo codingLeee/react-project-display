@@ -1,0 +1,23 @@
+.pf-tk-verfont{
+  font-size: 14px;  
+}
+.pf-tk-textleft{
+  text-align: left;
+}
+.pf-tk-padding{
+  padding:15px 0px ;
+}
+.pf-tk-lislist{
+  padding-top: 10px;
+}
+.pf-lis-button{
+  padding-top: 5px;
+}
+.pf-t-greenbutton{
+  background-color: #14CC8F;
+  border-color:#14CC8F
+}
+.pf-t-greenbutton:hover{
+  background-color: #7EE5C4;
+  border-color:#7EE5C4;
+}

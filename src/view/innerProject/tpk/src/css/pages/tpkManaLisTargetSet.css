@@ -1,0 +1,36 @@
+.zq-mts-cont{
+  background: #fff;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.zq-mts-explain{
+  padding:10px 20px;
+  margin:0 20px 20px;
+  text-align: left;
+  border-left: 5px solid #f2ba49;
+  background-color: #f8f2e6;
+}
+.zq-mts-explain p{
+  line-height: 25px;
+}
+.zq-mts-setting{
+  padding-left: 35px;
+  position: relative;
+}
+.zq-mts-setting .zq-mts-cover{
+position: absolute;
+top:46px;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: 99;
+background-color: rgba(255, 255,255, 0.5);
+}
+.zq-mts-setting>p{
+  text-align: left;
+  margin-bottom: 22px;
+}
+.ant-switch-checked{
+  background-color:#14cc8f;
+}

@@ -1,0 +1,536 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1366px;
+    min-height: 900px;
+    color: #333;
+    font-family: "Microsoft YaHei", "微软雅黑", Helvetica, Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", SimSun, "宋体", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a,
+a:active,
+a:hover,
+a:visited,
+a:focus {
+    text-decoration: none;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+
+    &>div,
+    &>div>div {
+        height: 100%;
+    }
+}
+
+.JC-project {
+    height: 100%;
+    width: 100%;
+    min-width: 1366px !important;
+}
+
+.JC-project .ant-layout-sider {
+    width: 230px !important;
+    min-width: 230px !important;
+    max-width: 230px !important;
+    background-color: #e3e6e9 !important;
+}
+
+.JC-header {
+    display: flex;
+    height: 70px;
+    line-height: 70px;
+    background: #273138;
+    color: #dae8f2;
+    padding: 0 20px;
+
+    .JC-title {
+        width: 210px;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 3px
+    }
+
+    .JC-headerNav {
+        flex: 1;
+
+        .JC-navActive {
+            background: #1b2126;
+            color: #ffffff;
+        }
+
+        li {
+            display: inline-block;
+            width: 120px;
+            font-size: 14px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        li:nth-child(1) {
+            margin-left: 30px;
+        }
+    }
+}
+
+.JC-leftMenu {
+    padding-left: 10px;
+    user-select: none;
+
+    ul,
+    .JC-leftMenu .ant-menu-submenu>.ant-menu {
+        padding: 10px 0 0 0;
+        background: #e3e6e9 !important;
+    }
+
+    .ant-menu-item-selected::after {
+        content: none;
+    }
+
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        background: none;
+    }
+
+    .ant-menu-sub {
+        .ant-menu-item {
+            padding-left: 68px !important;
+        }
+    }
+
+    .ant-menu-item {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .ant-menu-item:active {
+        background: none;
+    }
+}
+
+.JC-leftMenuSpan {
+    display: none;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    margin-right: 5px,
+}
+
+.JC-menuNavLink .JC-leftMenuSpan {
+    display: inline-block
+}
+
+.JC-content {
+    width: 100%;
+    height: calc(100% - 70px);
+
+    .ant-layout {
+        height: 100%;
+    }
+
+    .ant-layout-content {
+        background: #eff3f5;
+        padding: 20px;
+    }
+
+    .JC-content-wrap {
+        width: 100%;
+        height: 100%;
+        // background: #ffffff;
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    vertical-align: middle;
+    margin-top: -0.15em;
+}
+
+// 全局提示modal
+.JC-modal {
+    width: 400px !important;
+
+    button.ant-modal-close {
+        display: block;
+        height: 50px;
+        color: #ffffff;
+
+        .ant-modal-close-x {
+            font-size: 20px;
+            height: 50px;
+            line-height: 50px;
+        }
+    }
+
+    .anticon-question-circle {
+        display: none;
+    }
+
+    .ant-modal-confirm .ant-modal-body,
+    .ant-modal-body {
+        padding: 0;
+    }
+
+    .ant-modal-confirm-title {
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        padding-left: 20px;
+        color: #ffffff;
+        background: #273138;
+    }
+
+    div.ant-modal-confirm-content {
+        margin: 0;
+        min-height: 150px;
+        padding: 30px;
+        font-size: 16px;
+    }
+
+    div.ant-modal-content {
+        border-radius: 0;
+    }
+
+    div.ant-modal-confirm-btns {
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+        float: none;
+
+        button {
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        // 取消
+        button:nth-child(1):hover {
+            border-color: #d9d9d9;
+            color: rgba(0, 0, 0, 0.65);
+        }
+
+        // 保存
+        button:nth-child(2) {
+            background: #04d18d;
+            border-color: #04d18d;
+            color: #ffffff;
+            margin-left: -220px;
+        }
+    }
+}
+
+
+
+// 生态大数据的可视化中心样式
+.JC-stdsj {
+    text-align: center;
+
+    .JC-overview {
+        width: 200px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 4px;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 22px;
+        color: #31a9ff;
+        background: url('../icon/enterBc.png') 100% 100%;
+        cursor: pointer;
+
+        span {
+            margin-right: 20px;
+        }
+    }
+
+    .JC-tabCenter {
+        margin: 20px 0;
+
+        p {
+            font-size: 28px;
+            color: #b9bbbd;
+            margin-bottom: 0;
+            font-weight: 500;
+        }
+    }
+
+}
+
+
+.ll-PageStyle {
+    .ant-pagination-item-active {
+        background-color: #3498db;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    li,
+    a {
+        min-width: 38px;
+        height: 38px !important;
+        line-height: 38px;
+
+    }
+}
+
+.all-loading {
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        color: #096dd9;
+        -webkit-animation: run 1s linear infinite;
+    }
+
+    margin: 0 auto;
+
+    p {
+        position: absolute;
+        left: -4%;
+    }
+}
+
+@keyframes run {
+    from {
+        -webkit-transform: rotate(360deg);
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+
+// 登陆页
+.JC-login {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    background: url('./../icon/login_bg.png')no-repeat;
+    background-size: cover;
+
+
+    .JC-login-title{
+        width:40% ;
+        position: absolute;
+        top:4.5%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: url('./../icon/login_tit.png') no-repeat top;
+        background-size: 100%;
+        height: 15%;
+        }
+    .JC-login-con{
+        width: 34%;
+        position: absolute;
+        top:23.5%;
+        left: 50%;
+        transform: translateX(-50%);
+        background: url('./../icon/login_con_bg.png') no-repeat top;
+        background-size: 100%;
+        height: 75%;
+        .svg-log{
+            position: absolute;
+            width: 14%;
+            height: 25%;
+            right: 14% ;
+            top: 6%;
+
+        }
+        .form-box{
+            width: 46%;
+            height: 46.5%;
+           
+            margin: 0 auto;
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translateY(-58%) translateX(-50%);
+            h1{color:white;
+                font-size: 30px;
+                text-align: left;
+                height: 10%;
+                line-height: 100%;
+               
+            }
+            .ant-form-inline .ant-form-item{display: block;}
+            .ant-form-inline .ant-form-item > .ant-form-item-control-wrapper{display: block;}
+            input {
+                width: 100%;
+                display: block;
+                background:transparent;
+                height: 50px;
+                list-style-type: none;
+                border-radius: 0;
+              
+                outline: none!important;
+                border-width:0;
+               
+            }
+            .inputbox{
+               
+                width: 100%;
+                height: 50px;
+                background: rgb(232, 240, 254);
+                border-radius: 5px;
+                overflow: hidden;
+                margin-bottom:5%;
+               
+            }
+           
+            .inputbox{
+                margin-top: 3%;
+                position: relative;
+                input{
+                    padding-left:4%;
+                }
+            }
+            .buttonjiantou {
+                svg{ position: absolute;
+                    z-index: 999;
+                    top:50%;
+                    right:35%;
+                   transform: translateY(-30%)
+                }    
+
+            }
+           
+            .inputbox span:nth-child(1){
+               width: 10%;
+               display: inline-block;
+               background-color: rgb(232, 240, 254);
+               height: 50px;
+               float: left;
+               position: relative;
+               svg{
+                   position: absolute;
+                   top: 50%;
+                   left: 50%;
+                   transform: translateY(-50%)  translateX(-50%);
+
+               }
+            }
+            .inputbox span:nth-child(2){
+                width: 90%;
+                display: inline-block;
+                float: left;
+             }
+            
+            button {
+                width: 100%;
+                height:100%;
+                line-height: 40px;
+                font-size: 18px;
+                position: relative;
+                list-style-type: none;
+                background: #fff;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                
+            }
+            .unablebutton{
+               
+                cursor: not-allowed;
+            }
+    
+            .erromess{
+                color: white;
+                width: 100%;
+                height:25px;
+                line-height: 25px;
+                svg{
+                    float: left;
+                    margin-right: 2%;
+                    transform: translateY(25%)
+                }
+                span{
+                    float: left;
+                }
+            }
+            overflow: hidden;
+        }
+    
+    }
+    
+@media screen and ( max-width:1500px ) {
+
+    .JC-login-con{
+        width: 45%!important;
+    }
+}
+
+
+}
+
+//中转页
+
+.JC-identity{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #efefef url('./../icon/login_con_bg.png') no-repeat center;
+    .svg-log{
+        position: absolute;
+        width: 5%;
+        height: 25%;
+        right: 37.7% ;
+        top: 18%;
+
+    }
+    .JC-chioce{
+        width: 12%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align:center;
+        height: 50px;
+        button:nth-child(1){
+            float: left;
+        }
+        
+        button:nth-child(2){
+            float: right;
+        }
+        button{
+            width: 35%;
+            height: 50px;
+            font-weight: bold;
+            text-align:center;
+           
+        }
+        
+    }
+
+
+}

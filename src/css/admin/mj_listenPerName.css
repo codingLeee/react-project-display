@@ -1,0 +1,132 @@
+.zq-lpn-identificationKey{
+  padding:16px;
+  padding-bottom: 2px;
+}
+.ant-radio-group{
+  position: relative;
+}
+.zq-lpn-letter .ant-radio-button-wrapper:first-child{
+  border: none;
+  border-radius: 0;
+  position: absolute;
+  top:0;
+  left: -42px;
+  font-size: 20px;
+  color: #ff794c;
+}
+.zq-lpn-letter .ant-radio-button-wrapper{
+  padding: 0;
+  border: none;
+  text-align: center;
+  margin-bottom: 4px;
+  font-size: 18px;
+  width: 24px;
+  height: 24px;
+  float: left;
+}
+.zq-lpn-letter .ant-radio-button-wrapper-checked{
+  box-shadow:none;
+  -webkit-box-shadow:none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.zq-lpn-letter .ant-radio-button-wrapper:not(:first-child)::before{
+  background-color: transparent!important;
+}
+.zq-lpn-letter .ant-radio-button-wrapper-checked::before{
+  background-color: transparent!important;
+}
+.zq-lpn-letter .ant-radio-button-wrapper-checked:hover{
+  background-color: transparent!important;
+  box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.zq-lpn-perName{
+  padding-left: 5px;
+  overflow-y: auto;
+  max-height: 348px;
+}
+.zq-lpn-perName .ant-radio-group{
+  display: block;
+  text-align: left;
+}
+.zq-lpn-perName .ant-radio-group-large .ant-radio-button-wrapper{
+  margin: 8px 4px;
+  width: 81px;
+  height: 38px;
+  padding: 0 5px;
+  line-height: 38px;
+  text-align: center;
+  border:1px dashed #c2c8cc;
+  font-size: 14px;
+  vertical-align: top;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+}
+.zq-lpn-perName .ant-radio-group-large .ant-radio-button-wrapper-checked.ant-radio-button-wrapper-disabled{
+  border: 1px dashed #c2c8cc;
+  background-color: #f7f7f7;
+  color: rgba(0, 0, 0, 0.25);
+}
+.zq-lpn-perName .disabled{
+  background-color: #f7f7f7;
+  cursor: not-allowed;
+  color:rgba(0, 0, 0, 0.25);
+}
+.zq-lpn-perName .ant-radio-button-wrapper:first-child{
+  border-radius: 0;
+}
+.zq-lpn-perName .ant-radio-group-large .ant-radio-button-wrapper-checked{
+  background-color: #ebf7ff;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  border-style:solid;
+  border-color: #26a5ff;
+}
+.zq-lpn-perName .zq-lpn-perNum{
+  margin-left: 3px;
+  color: #ff584f;
+}
+.zq-lpn-perName .ant-radio-button-wrapper .zq-lpn-perNum{
+  display: inline;
+}
+.zq-lpn-perName .ant-radio-button-wrapper-checked .zq-lpn-perNum{
+  display: none;
+}
+.zq-lpn-perName  .ant-radio-button-wrapper:not(:first-child)::befor,
+.zq-lpn-perName  .ant-radio-button-wrapper-checked::before{
+  background-color: transparent!important;
+}
+.zq-lpn-perName  .ant-radio-button-wrapper-checked:hover{
+  box-shadow:none;
+  -webkit-box-shadow:none;
+}
+
+/* button */
+.zq-lpn-perName .ant-btn{
+  border-radius: 0;
+  margin: 8px 4px; 
+  height: 38px;
+  width:81px;
+  line-height: 38px;
+  vertical-align:top;
+  font-size: 14px;
+  border:1px dashed #c2c8cc;
+  float: left;
+  padding:0 5px;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+}
+.zq-lpn-perName .ant-btn:focus{ outline:none; }
+.zq-lpn-perName .ant-btn:focus{
+  background-color:#ebf7ff;
+  border-style:solid;
+  border-color:#26a5ff;
+  color: #26a5ff;
+}
+.zq-lpn-perName .ant-btn-clicked:after {
+  border: none;  
+  opacity:0;  
+}

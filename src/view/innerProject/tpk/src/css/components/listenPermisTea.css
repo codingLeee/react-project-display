@@ -1,0 +1,46 @@
+.zq-lpt-container{
+  width: 470px;
+  height: 480px;
+  border:1px solid #c2c8cc;
+}
+.zq-lpt-container>p{
+  text-align: left;
+  padding-left: 18px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #c2c8cc;
+}
+.zq-lpt-identificationKey{
+  padding:16px;
+}
+.zq-lpt-star{
+  font-size: 20px;
+  color: #ff794c;
+}
+.zq-lpt-letter .ant-radio-button-wrapper:first-child{
+  border: none;
+  border-radius: 0;
+}
+.zq-lpt-letter .ant-radio-button-wrapper{
+  padding: 0 7px;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+}
+.zq-lpt-letter .ant-radio-button-wrapper-checked{
+  box-shadow:none;
+  -webkit-box-shadow:none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.zq-lpt-letter .ant-radio-button-wrapper:not(:first-child)::before{
+  background-color: transparent!important;
+}
+.zq-lpt-letter .ant-radio-button-wrapper-checked::before{
+  background-color: transparent!important;
+}
+.zq-lpt-letter .ant-radio-button-wrapper-checked:hover{
+  background-color: transparent!important;
+    box-shadow:none;
+  -webkit-box-shadow:none;
+}

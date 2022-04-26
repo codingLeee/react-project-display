@@ -1,0 +1,28 @@
+.gwj-comments-box{
+    background-color: #eff3f5;
+    padding-top: 10px;
+}
+.gwj-comments{
+    background-color: #fff;
+    padding: 18px 20px;
+}
+.gwj-comments>div{
+    display: inline-block;
+}
+.gwj-comments>div:first-child{
+    width: 10%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+.gwj-comments>div:nth-child(2){
+    width: 88%;
+}
+.gwj-comments-content>div:first-child{
+    margin-bottom: 15px;
+}
+.gwj-comments-content>div:nth-child(2)>span>svg{
+    margin-right: 7px;
+}
+.gwj-comments-content>div:nth-child(2)>span:first-child{
+    margin-right: 103px;
+}

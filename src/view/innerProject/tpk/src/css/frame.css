@@ -1,0 +1,41 @@
+.xt-layout .xt-layout-header {
+    height: auto;
+    padding: 0;
+    background-color: #273138;
+}
+
+.xt-header-title {
+    float: left;
+    padding: 0 40px 0 20px;
+    font-size: 24px;
+    color: #fff;
+    line-height: 72px;
+}
+
+.xt-header-uinfo {
+    float: right;
+    padding: 0 20px;
+    line-height: 72px;
+    color: #fff;
+}
+
+.xt-header-uinfo span {
+    /* padding:12px; */
+    float: left;
+}
+
+.xt-header-uinfo a {
+    padding: 12px;
+    color: #fff;
+}
+
+.xt-layout .xt-content {
+    text-align: center;
+}
+
+.xt-content .xt-viewbox {
+    position: relative;
+    margin: auto;
+    width: 1140px;
+    padding-top: 20px;
+}

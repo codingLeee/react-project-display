@@ -1,0 +1,114 @@
+/*
+ * @Author: 蒲飞 
+ * @Date: 2017-09-19 19:00:37 
+ * @Last Modified by: MinJ
+ * @Last Modified time: 2019-03-15 10:47:50
+ */
+ .pf-r-searchline{
+  display:block;
+  float: left;
+  height:55px;
+  width:30px;
+  border-left: 2px solid #CCCCCC;
+  position: relative;
+  margin-left: 20px;
+  z-index: 15;
+}
+.pf-r-searchcircle{
+  position: absolute;
+  width: 14px;      
+  height: 14px;      
+  background-color:#33AAFF;
+  border-radius: 50%;      
+  -moz-border-radius: 50%;      
+  -webkit-border-radius: 50%;
+  left:-8px;
+  top:20px;
+  z-index: 20;
+}
+.pf-r-searchbigcircle{
+  position: absolute;
+  width: 24px;      
+  height: 24px;      
+  background-color:#C1E5FF;      
+  border-radius: 50%;      
+  -moz-border-radius: 50%;      
+  -webkit-border-radius: 50%;
+  left:-13px;
+  top:15px;
+  z-index: 0;
+}
+.pf-r-searchcontenttitle{
+  padding-top:10px;
+  display: block;
+  float: left;
+  font-size: 22px;
+  color:#737373;
+}
+.pf-r-searchcontentweek{
+  width:300px;
+  height:55px;
+  padding-left: 60px;
+  margin:0;
+}
+
+.pf-r-searchcontentweekcourse{
+  width:100%;
+  height:45px;
+  padding-left: 60px;
+  margin:0;
+}
+.pf-r-searchcourseline{
+  display:block;
+  float: left;
+  height:45px;
+  width:30px;
+  border-left: 2px solid #CCCCCC;
+  position: relative;
+  margin-left: 20px;
+  z-index: 15;
+}
+.pf-r-searchcoursecircle{
+  position: absolute;
+  width: 14px;      
+  height: 14px;      
+  background-color:#33AAFF;
+  border-radius: 50%;      
+  -moz-border-radius: 50%;      
+  -webkit-border-radius: 50%;
+  left:-8px;
+  top:15px;
+  z-index: 20;
+}
+.pf-r-searchcourseweekinfo{
+  position: absolute;
+  z-index: 20;
+  top:10px;
+  left:-65px;
+  font-size: 16px;
+}
+.pf-r-searchcoursecard{
+  width:100%-45px;
+  height:40px;
+  border: 1px solid #C7C7C7;
+  margin-left: 45px;
+}
+.pf-r-searchcourseinfo ul li{
+  list-style: none;
+  float: left;
+  padding-right: 8px;
+  padding-top:8px;
+  font-size: 14px;
+}
+.pf-r-searchcourseinfo ul{
+  padding-left: 90px;
+  margin-bottom: 0;
+}
+.pf-r-searchcoursehandle{
+  float:right;
+  display: block;
+  padding-right: 20px;
+  padding-top:8px;
+  font-size: 14px;
+  text-decoration :underline;
+}

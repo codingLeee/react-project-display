@@ -1,0 +1,116 @@
+.cjy-rpm-tableBox{
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.cjy-rpm-headLine{
+  height: 60px;
+  /* border-bottom: 1px solid #d9d9d9; */
+}
+
+.cjy-rpm-headLine > .ant-btn{
+  width: 100px;
+  height: 40px;
+  background: #14cc8f;
+  color: #ffffff;
+  float: left;
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+.cjy-rpm-tableBox th,
+.cjy-rpm-tableBox td{
+  font-size: 14px !important;
+}
+
+.cjy-rpm-tableBox .ant-pagination-total-text{
+  font-size: 14px;
+}
+
+.cjy-rpm-aBox{
+  color: #a6a6a6;
+  margin-right: 10px;
+}
+
+.cjy-rpm-aBox .icon{
+  font-size: 16px;
+}
+
+.cjy-rpm-numInfo{
+  display: inline-block;
+  font-size: 14px;
+  float: left;
+  margin-top: -40px;
+}
+
+.cjy-rpm-headLine > .ant-btn:hover{
+  background-color: #7EE5C4;
+  border-color: #7EE5C4;
+}
+
+.cjy-rpm-modal{
+  width: 780px !important;
+}
+.cjy-rpm-modal .ant-modal-header{
+  background-color: #273138;
+}
+.cjy-rpm-modal .ant-modal-title,
+.cjy-rpm-modal .ant-modal-close{
+  color: #ffffff;
+}
+
+
+
+/* 表格及分页样式 */
+.cjy-trpm-table .ant-table{
+  font-size: 14px;
+  color:#4d4d4d;
+}
+.cjy-trpm-table .ant-table table{
+  text-align: center;
+}
+.cjy-trpm-table .ant-table-thead > tr > th,
+.cjy-trpm-table .ant-table-tbody > tr > td{
+  text-align: center;
+  padding:11px 8px;
+  border-bottom-color:#D9D9D9;
+}
+.cjy-trpm-table .ant-table-thead > tr > th:nth-child(1),
+.cjy-trpm-table .ant-table-tbody > tr > td:nth-child(1){
+  text-align: left;
+  padding-left: 20px;
+}
+.cjy-trpm-table .ant-table-thead > tr:nth-child(2n),
+.cjy-trpm-table .ant-table-tbody > tr:nth-child(2n){
+  background-color: #FAFAFA;
+}
+.cjy-trpm-table .ant-table-thead>tr>th{
+  border-top: 1px solid #D9D9D9;
+  border-bottom: 1px solid #D9D9D9;
+  background-color: #FAFAFA;
+}
+
+
+.cjy-trpm-table .ant-pagination {
+    /* font-size: 14px;
+    border: 1px solid #D9D9D9;
+    padding: 0 15px;
+    margin: 9px 0 21px 0;
+    border-radius: 4px; */
+}
+.cjy-trpm-table .ant-pagination-item {
+    /* font-size: 14px;
+    margin-right: 0px;
+    border: 0px;
+    height: 36px;
+    min-width: 36px;
+    line-height: 36px;
+    border-radius: 0px; */
+}
+
+.cjy-rpm-headLine .ant-btn:active,
+.cjy-rpm-headLine .ant-btn:focus{
+  border: none;
+}

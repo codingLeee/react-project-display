@@ -1,0 +1,9 @@
+.cjy-cpn-inputBox{
+  margin: 110px 0;
+}
+
+.cjy-cpn-inputBox .ant-input{
+  width: 380px;
+  height: 40px;
+  font-size: 14px;
+}

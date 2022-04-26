@@ -1,0 +1,70 @@
+.cjy-rmg-modGroup{
+  font-size: 14px;
+}
+
+.cjy-rmg-span{
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+.cjy-rmg-nameLine .ant-input{
+  width: 290px;
+  height: 40px;
+}
+
+.cjy-rmg-memberBox,
+.cjy-rmg-noteLine{
+  margin-top: 10px;
+}
+
+.cjy-rmg-choseTeaBox{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cjy-rmg-textarea{
+  width: 850px;
+  height: 80px !important;
+  vertical-align: top !important;
+  resize: none;
+}
+
+.cjy-rmg-leftBox,
+.cjy-rmg-RightBox{
+  width: 385px;
+  height: 427px;
+  border: 1px solid #c2c8cc;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cjy-rmg-RightBox{
+  overflow-y: auto;
+  padding-bottom: 15px;
+}
+
+.cjy-rmg-leftBox .zq-lpn-perName{
+  max-height: 305px;
+}
+.cjy-rmg-arrowBox{
+  position: relative;
+  top: 175px;
+}
+
+.cjy-rmg-arrowBox .iconfont{
+  font-size: 50px;
+  color: #a1cae6;
+}
+
+.cjy-rmg-RightBox .zq-lcn-perChoName{
+  height: auto;
+}
+
+.cjy-rmg-textToTop{
+  vertical-align: top;
+}
+
+.cjy-rmg-modGroup .ant-input{
+  font-size: 14px;
+}

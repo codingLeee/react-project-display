@@ -1,0 +1,48 @@
+.mj-lfs-freqCon{
+  margin-top: 118px;
+  margin-bottom: 30px;
+}
+
+.mj-lfs-span{
+  float: left;
+  margin-left: 360px;
+  line-height: 40px;
+  font-size: 16px;
+}
+
+.mj-lfs-freq{
+  /* display: inline-block; */
+  width: 500px;
+  margin-left: 10px;
+  float: left;
+}
+.mj-lfs-sele .ant-select-selection--single{
+  width: 128px;
+  height: 40px;
+  display: inline-block;
+}
+.mj-lfs-span, .mj-lfs-sele .ant-select-selection-selected-value{
+  font-size: 16px;
+  line-height: 40px;
+}
+.mj-lfs-freq .ant-input-group{
+  width: 128px;
+  float: left;
+}
+.mj-lfs-inp{
+  width: 108px;
+  height: 40px;
+  float: left;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.mj-lfs-freSpan{
+  float: left;
+    margin-left: 6px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.mj-lfs-clear{
+  clear: both;
+}

@@ -1,0 +1,70 @@
+.zq-lpc-container{
+  width: 470px;
+  height: 480px;
+  border:1px solid #c2c8cc;
+}
+.zq-lpc-container .zq-lcn-perChoName{
+  height: 30%;
+}
+.zq-lpc-container>p{
+  text-align: left;
+  padding-left: 18px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #c2c8cc;
+}
+.zq-ltc-next{
+  height: 480px;
+  line-height: 480px;
+}
+.zq-ltc-next span.iconfont{
+  color: #a1cae6;
+  font-size: 70px;
+}
+.zq-ltc-tit{
+  text-align: left;
+  padding-left: 18px;
+  padding-right: 18px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #c2c8cc;
+}
+.zq-ltc-choseInfo{
+  float: right;
+  height: 100%;
+}
+.zq-ltc-choseInfo .zq-ltc-choseteacherId{
+  font-size: 20px;
+  margin: 0 4px;
+}
+.zq-ltc-choseNum{
+  font-size:20px;
+  margin:0 4px;
+}
+.zq-ltc-perName .zq-lpn-perName{
+  max-height: 180px;
+}
+.zq-ltc-btn{
+  margin-top: 22px;
+}
+.zq-ltc-btn button{
+  margin-right: 24px;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+}
+.zq-ltc-btn .ant-btn-primary{
+  border-color: #14cc8f;
+  background-color: #14cc8f;
+}
+.zq-ltc-btn .ant-btn:hover, .zq-ltc-btn .ant-btn:focus{
+  border-color: #14cc8f;
+  color: #14cc8f;
+}
+.zq-ltc-btn .ant-btn-primary:hover,.zq-ltc-btn .ant-btn-primary:focus{
+  color: #fff;
+}
+
+.ant-notification{
+  width: 240px;
+}

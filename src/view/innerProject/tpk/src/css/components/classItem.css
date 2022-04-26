@@ -1,0 +1,35 @@
+.cjy-ci-item{
+  width: 105px;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  border-left: 1px solid #c2c8cc;
+  border-bottom: 1px solid #c2c8cc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cjy-ci-blue{
+  background: #ebf7ff;
+  color: #47a8e9;
+  cursor: pointer;
+}
+
+.cjy-ci-grey{
+  background: #f5f8fa;
+  color: #808080;
+  border-right: none;
+  /* border-left: none; */
+}
+
+.cjy-ci-normal{
+  background: #ffffff;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.cjy-ci-dsbd{
+  background: #ffffff;
+  color: #d4d4d4;
+}

@@ -1,0 +1,43 @@
+.cjy-rsc-childOpt{
+  margin-top: 20px;
+}
+
+.cjy-rsc-titleLine .cjy-rsc-foldBtn{
+  font-size: 26px;
+  color: #f55450;
+  margin-left: 57px;
+  cursor: pointer;
+}
+
+.cjy-rsc-childName{
+  width: 380px;
+  height: 40px;
+  vertical-align: top;
+}
+
+.cjy-rsc-score{
+  width: 54px;
+  margin-left: 10px;
+  height: 40px;
+  vertical-align: top;
+}
+
+.cjy-rsc-score .ant-input-number-input{
+  height: 38px;
+  line-height: 38px;
+}
+
+.cjy-rsc-scoreStanBox{
+  margin-top: 20px;
+}
+
+.cjy-rsc-scoreStan{
+  width: 445px;
+  height: 145px !important;
+  vertical-align: top !important;
+  resize: none;
+}
+
+.cjy-rsc-scoreStanBox span{
+  margin-left: 84px;
+}

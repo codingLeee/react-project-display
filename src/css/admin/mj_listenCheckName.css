@@ -1,0 +1,44 @@
+.zq-lcn-perChoName{
+  padding-left: 6px;
+  padding-top:15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.zq-lcn-perChoName li{
+  float: left;
+  position: relative;
+  border: 1px solid #26a5ff;
+  background-color: #ebf7ff;
+  color: #26a5ff;
+  margin: 8px 5px;
+  cursor: pointer;  
+}
+.zq-lcn-perChoName li.warning{
+  border-color: #ff584f;
+  color: #ff584f;
+  background-color: #f9eeed;
+}
+.zq-lcn-perChoName li p{
+  width: 77px;
+  height: 36px;
+  margin-bottom: 0;
+  line-height: 36px;
+  padding:0 5px;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow:hidden;
+  text-align: center;
+}
+.zq-lcn-perChoName li span.iconfont{
+  position: absolute;
+  top:-14px;
+  right: -8px;
+  color: #ff584f;
+  font-size: 18px;
+  cursor: pointer;
+  display: none; 
+  z-index: 59;
+}
+.zq-lcn-perChoName li:hover span.iconfont{
+  display: block;
+}

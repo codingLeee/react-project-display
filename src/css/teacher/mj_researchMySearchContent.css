@@ -1,0 +1,172 @@
+/*
+ * @Author: 蒲飞 
+ * @Date: 2017-09-19 10:14:34 
+ * @Last Modified by: MinJ
+ * @Last Modified time: 2019-03-15 11:12:30
+ */
+ .pf-r-searchtypes{
+   position: absolute;
+   right:1px;
+   top:8px;
+   width: 858px;
+   /* padding-left: 250px; */
+   /* padding-right: 20px; */
+   z-index: 90;
+   background-color: #fff;
+ }
+.pf-r-searchcontent{
+  width: 100%;
+  height: 520px;
+  display: block;
+  float: left;
+  position: relative;
+  
+}
+.zq-r-noresult,.zq-r-loading{
+  width: 100%;
+  height: 550px;
+  padding-top: 140px;
+  font-size: 14px;
+  background-color: #fff;
+  position:absolute;
+  z-index: 999;
+}
+.zq-r-noresult span{
+  font-size: 60px;
+  vertical-align: middle;
+}
+/* .zq-r-loading{
+  height: 550px;
+} */
+/* 循环滚动加载动画 */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.zq-r-loading .zq-rscroll{
+  font-size: 30px;
+  transform-origin:37.2% 46.2%;
+  display: inline-block;
+  animation: spin 2s infinite linear;
+  vertical-align: middle;
+}
+
+.pf-r-searchinfo{
+  height: 520px;
+  width:100%;
+  margin-top:20px;
+  position: relative;
+}
+.pf-r-searchinfo .zq-r-line{
+position: absolute;
+top:0;
+ left: calc(14% + 80px); 
+ /* left: 212px;  */
+height: 100%;
+width: 2px;
+background-color: #CCCCCC
+}
+.pf-r-searchleft{
+  height: 520px;
+  display: block;
+  float: left;
+  width:14%;
+  overflow: hidden;  
+}
+.pf-r-searchleft ul{
+  height: 100%;  
+  width: 174px;  
+  overflow-y: auto;  
+  overflow-x: hidden; 
+}
+.pf-r-searchleft li.zq-weekbox{
+  margin-left: 22px;
+  height:40px;
+  width: 90px;
+  line-height: 40px;
+  border:1px solid #82CBFF;
+  border-bottom: none;
+  font-weight:500;
+  font-size: 14px;
+  color: rgba(0,0,0,.65);
+  position: relative;
+  cursor: pointer;
+  background-color: #f5fbff;
+}
+.pf-r-searchleft li.zq-weekbox:last-child{
+  border-bottom: 1px solid #82CBFF;
+}
+.pf-r-searchleft li.zq-weekbox:hover{
+  color: #3af;
+}
+.pf-r-searchright{
+  height: 520px;
+  display: block;
+  float: left;
+  width:86%;  
+  height: 100%;  
+  overflow-y: auto;  
+  overflow-x: hidden; 
+}
+.pf-r-searchleft .zq-weekbox span{
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  position: relative;
+  text-align: center;
+}
+.pf-r-searchleft .zq-weekbox span.clicked{
+  background-color:#33AAFF;
+  color: #fff;
+}
+.pf-r-searchleft .zq-weekbox span.clicked::after{
+  box-sizing: content-box;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 12px;
+  left:88px;
+  padding:0;
+  border-bottom:6px solid transparent;
+  border-top:6px solid transparent;
+  border-left:12px solid #33AAFF;
+  border-right:12px solid transparent;
+  display: block;
+  content:'';
+  z-index: 12;
+}
+.pf-t-schtitltleft .zq-r-grayselected{
+  background-color: #BCBCBC;
+}
+.pf-t-schtitltleft .zq-r-redselected{
+  background-color: #F55450;
+}
+.pf-t-schtitltleft .zq-r-greenselected{
+  background-color: #00CC88;
+}
+.pf-t-schtitltleft .zq-r-blueselected{
+  background-color: #00D2D9;
+}
+.pf-t-schtitltleft .zq-r-orangeselected{
+  background-color: #FFB728;
+}
+
+/*随堂听*/
+.pf-t-schtitltleft .zq-r-applicationcourse{
+  background-color: #e1d123;
+}
+.pf-t-schtitltleft .zq-r-passcourse{
+  background-color: #00cc88;
+}
+.pf-t-schtitltleft .zq-r-accomplishcourse{
+  background-color: #cc4d00;
+}
+.pf-t-schtitltleft .zq-r-mycourse{
+  background-color: #00d2d9;
+}

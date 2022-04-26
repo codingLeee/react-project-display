@@ -1,0 +1,120 @@
+.mj-lti-clear{
+  clear: both;
+}
+
+.mj-lti-perCon{
+  /* width: 260px; */
+  width: 31%;
+  height: 116px;
+  border: 1px solid #cccccc;
+  float: left;
+  /* margin-left: 22px; */
+  margin-left: 2%;
+}
+.mj-lti-perCon1{
+  position: relative;
+}
+.mj-lti-perNone{
+  position: absolute;
+  /* width: 260px; */
+  width: 101%;
+  height: 116px;
+  background: rgba(255, 255, 255, 0.6);
+  left: -1px;
+  top: -1px;
+}
+
+
+
+.mj-lti-headImg{
+   width: 100px; 
+  /* width: 30%; */
+  height: 116px;
+  float: left;
+  text-align: center;
+}
+.mj-lti-uhead{
+    width: 80px;
+    height: 80px;
+     background-image: url('./../../icon/uhead.png');     
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.mj-lti-perInfo{
+  /* width:142px; */
+  width: calc(100% - 100px);
+  height: 116px;
+  float: right;
+  position: relative;
+  text-align: left;
+}
+.mj-lti-perInfo p{
+  width: 42px;
+  height: 26px;
+  color: #ffffff;
+  font-size: 18px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  text-align: center;
+}
+.mj-lti-num0{
+  background: #00cc88;
+}
+.mj-lti-num1{
+  background: #00ccc0;
+}
+.mj-lti-num2{
+  background: #008bcc;
+}
+.mj-lti-num3{
+  background: #ff584f;
+}
+.mj-lti-num4{
+  background: #ff9728;
+}
+.mj-lti-num5{
+  background: #ffb728;
+}
+
+.mj-lti-perInfo div{
+  margin-top: 34px;
+  margin-bottom: 10px;
+}
+.mj-lti-perInfo span:nth-child(1){
+  float: left;
+  font-size: 22px;
+    color: #666666;
+    width: 50%;
+    /* width: 84px; */
+    height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  line-height: 42px;
+}
+.mj-lti-perInfo span:nth-child(2){   
+    font-size: 16px;
+    width: 50%;
+    /* width: 58px; */
+    text-align: center;
+    float: left;
+    margin-top: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mj-lti-perInfo a,
+.mj-lti-perInfo a:active, 
+.mj-lti-perInfo a:hover, 
+.mj-lti-perInfo a:visited, 
+.mj-lti-perInfo a:focus{
+  text-decoration: underline;
+  margin-left: 0;
+}
+
+.mj-lti-link{
+  /* cursor: pointer; */
+  font-style: normal;
+}

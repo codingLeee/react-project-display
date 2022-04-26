@@ -1,0 +1,44 @@
+.pf-tk-card{
+  background-color: #fff;
+  height: 240px;
+  width: 100%;
+  padding:20px;
+}
+.pf-tk-content{
+  width:100%;
+  height:200px;
+}
+.pf-tk-left{
+  display: block;
+  font-size: 16px;
+  color:#505050;
+  float: left;
+  width: 235px;
+  height: 40px;
+}
+.pf-tk-left span{
+  float: left;
+}
+.pf-tk-list{
+  display: block;
+  width: 100%;
+  height: 160px;
+  float: left;
+  padding-top: 15px;
+}
+.pf-tk-gutter{
+  padding: 10px 0;
+  font-size: 14px;
+}
+.pf-tk-putterleft{
+  text-align: left;
+  padding-left: 10px;
+}
+.pf-tk-bigsize{
+  font-size: 27px;
+  padding:0;
+}
+.pf-tk-icon{
+  font-size:20px;
+  padding:5px;
+}

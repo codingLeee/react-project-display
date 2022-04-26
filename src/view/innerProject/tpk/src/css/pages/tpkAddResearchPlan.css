@@ -1,0 +1,12 @@
+.cjy-arp-prgrsBox{
+  min-height: 600px;
+  width: 100%;
+  margin-top: 10px;
+  background: #ffffff;
+}
+
+.cjy-arp-stepBox{
+  width: 100%;
+  height: auto;
+  padding: 60px 110px 0;
+}

@@ -1,0 +1,34 @@
+.mj-bc-breadCrumb{
+  width: 100%;
+  /* width: 1140px; */
+  height: 60px;
+  background: #ffffff;
+  line-height: 60px;
+  text-align: left;
+}
+
+.mj-bc-breadCrumb span{
+  font-size: 14px;
+}
+.mj-bc-breadCrumb .ant-breadcrumb{
+  color: rgba(0, 0, 0, 0.65);
+}
+.mj-bc-breadCrumb button{
+  width: 60px;
+  height: 30px;
+   margin-left: 20px; 
+   color: #ffffff;
+  background: #31a9ff;
+  border-color: #31a9ff;
+}
+.mj-bc-breadCrumb button:hover{
+  background: #45b1ff;
+  border-color: #45b1ff;
+}
+.mj-bc-tit{
+  margin-left: 20px;
+}
+
+.mj-bc-bread{
+  display: inline-block;
+}

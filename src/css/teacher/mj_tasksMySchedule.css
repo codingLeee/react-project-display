@@ -1,0 +1,116 @@
+/*
+ * @Author: 蒲飞 
+ * @Date: 2017-09-15 15:18:59 
+ * @Last Modified by: MinJ
+ * @Last Modified time: 2019-03-14 09:35:57
+ */
+.pf-tk-schedule{
+  background-color: #fff;
+  width:100%;
+  height:auto;
+  margin-top: 20px;
+  margin-bottom: 63px;
+}
+.pf-tk-titlepadding{
+padding-top: 10px;
+}
+.pf-t-schedulecontainer{
+  height: auto;
+  padding:0 30px 30px 30px;
+  position: relative;
+}
+.pf-t-schtitle{
+  height: 60px;
+  margin-top: 10px;
+}
+.pf-t-schbutton{
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+.pf-t-schtitle .ant-btn{
+  height:40px;
+  width:100px;
+  border-color: #959FA6;
+}
+.pf-t-schtitle .ant-btn:focus{
+  border-color: #33AAFF;
+  background-color: #fff;
+  color:#33AAFF;
+}
+.pf-t-schdate{
+  display: block;
+  font-size: 16px;
+  float: left;
+  padding-top:6px;
+  color: #5C6266;
+}
+.pf-t-schtitletype{
+  display: block;
+  float: left;
+  width:20px;
+  height: 16px;
+  margin-top: 3px;
+  margin-right: 7px;
+}
+.pf-t-schtype{
+  display: block;
+  float: left;
+  font-size: 14px;
+  /* padding-left: 36px; */
+}
+.pf-t-schtypes{
+  display: block;
+  float: right;
+  padding-top: 8px;
+}
+ul.pf-t-schtitltleft{
+  list-style:none; /* 去掉ul前面的符号 */
+  margin: 0px; /* 与外界元素的距离为0 */
+  padding: 0px; /* 与内部元素的距离为0 */
+  width: auto; /* 宽度根据元素内容调整 */
+  float: right;
+}
+ul.pf-t-schtitltleft li{
+  float: left;
+  cursor: pointer;
+  padding-left: 36px;
+}
+.pf-t-noresult{
+  width:100%;
+  height:500px;
+  position: absolute;
+  right:0;
+  z-index: 20;
+  background-color: #fff;
+  margin-bottom: 60px;
+  font-size: 14px;
+}
+.pf-r-loading{
+  height: 550px;
+  position: absolute;
+  z-index: 20;
+  background-color: #fff;
+  width:100%;
+  padding-top: 140px;
+  left:0px;
+  /* margin-bottom: 60px;  */
+  text-align: center;
+}
+/* 循环滚动加载动画 */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.pf-r-loading .pf-rscroll{
+  font-size: 30px;
+  transform-origin:37.2% 46.2%;
+  display: inline-block;
+  animation: spin 2s infinite linear;
+  vertical-align: middle;
+}

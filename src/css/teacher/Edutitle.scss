@@ -1,0 +1,144 @@
+/*
+ * @Author: yrj 
+ * @Date: 2019-02-26 13:59:41 
+ * @Last Modified by: yrj
+ * @Last Modified time: 2019-03-06 17:33:04
+ * 教学反思--我的考勤
+ */
+
+
+
+.Edubox{
+    width: 97.5%;
+    font-size: 16px;
+    background: #fff;
+    margin: 20px auto;
+    color: rgb(77, 77, 77)
+   
+}
+
+.Edulist{
+    height: 100%;
+    float: left;
+    text-align: center;
+    height: 200px; 
+}
+.Edulist:nth-child(1) .Ed_head{
+    padding:15px 0 23px 0;
+}
+.Edulist .Ed_head{
+    padding:37px 0 42px 0;
+}
+.Edulist:nth-child(1){
+    width: 34.5%;
+    background: #f5f5f5;
+    height: 200px;
+    margin:10px 0 10px 15px; 
+    font-size:14px;
+}
+.Edulist:nth-child(2){
+    width: 32%;
+    border-right: dashed 1px #d9d9d9;
+}
+.Edulist:nth-child(3){
+    width: 32%;
+}
+.Edulist p{
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+}
+.Edulist span{
+    font-size:16px;
+    color:#333;
+    display: inline-block;
+}
+
+.clear:after{
+    clear: both;
+    content: "";
+    display: block;
+    height:0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.Edulist .strange{
+    width: 67%;
+    margin: 0 auto;
+}
+.Edulist .strange .str_r{
+    float: right;
+    text-align:right;
+    
+    width: 30%;
+  
+}
+.Edulist .strange .str_l{
+    position: relative;
+    float: left;
+    width:108px;
+    height: 108px;
+}
+.Edulist .strange .str_data{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    z-index: 666;
+    padding-top: 17%;
+}
+
+.Edulist .strange .str_data span{
+    display:inline-block;
+    width: 100%;
+    color:rgb(255,91,64);
+}
+.Edulist .strange .str_data span:nth-child(1){
+    display:inline;
+    font-size:32px;
+}
+
+.Edulist .strange .str_data span:nth-child(2){
+    font-size: 14px;
+    line-height: 1rem;
+   
+}
+.Edulist .strange .str_l #main{
+    width: 100%;
+    height:100%;
+}
+.Edulist .strange .str_r span{ 
+    font-size: 17px;
+}
+.Edulist ul{
+    width: 55%;
+    margin: 0 auto;
+}
+.Edulist ul li{
+    list-style-type: none;
+    float: left;
+    width: 33%;
+
+}
+
+.Edulist:nth-child(1) p{
+    display: inline-block;
+    width:100%;
+    margin-bottom: 8px;
+}
+.Edulist ul li p{
+    font-size:14px;
+    display: inline-block;
+    text-align:center;
+    width: 100%;  
+}
+.Edulist ul li span{
+    font-size: 30px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.hui{color: #5e5e5e!important;}
+.ju{color: #ff5b40!important;}
+.huang{ color: #ffaf40!important;}

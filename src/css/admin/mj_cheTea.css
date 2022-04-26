@@ -1,0 +1,100 @@
+.JC-content .JC-content-wrap .mj-cot-content{
+  background-color: #eff3f5;
+}
+/* 选择栏 */
+.mj-cot-seleCon{
+  padding: 0 20px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #ffffff;
+}
+.mj-cot-sele{
+  display: inline-block;
+  width: 70%;
+}
+.mj-cot-all{
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+}
+.mj-cot-all .ant-select-selection--single{
+  height: 40px;
+}
+.mj-cot-all .ant-select-selection__rendered{
+  line-height: 40px;
+}
+.mj-cot-college{
+  margin-right: 20px;
+}
+.mj-cot-search{
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+.mj-cot-search .ant-input-affix-wrapper{
+  width: 260px;
+  height: 40px;
+}
+
+/* 表格 */
+.mj-cot-tableCon{
+  margin-top: 10px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.mj-cot-tableSele{
+  padding: 10px 20px 0;
+  height: 50px;
+  line-height: 30px;
+}
+.mj-cot-right,
+.mj-cot-left{
+  display: inline-block;
+}
+.mj-cot-left{
+  width: 50%;
+}
+.mj-cot-left .icon{
+  width: 20px;
+  height: 20px;
+  color: #31a9ff;
+  cursor: pointer;
+}
+.mj-cot-left span{
+  margin-left: 6px;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #a1a1a1;
+  cursor: pointer;
+}
+.mj-cot-right{
+  width: 50%;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 16px;
+  color: #31a9ff;
+}
+.mj-cot-right svg{
+  width: 24px;
+  height: 24px;
+  color: #b0afb0;
+  cursor: pointer;
+}
+.mj-cot-right span:nth-child(1) svg{
+  margin-right: 20px;
+}
+.mj-cot-right span:nth-child(3) svg{
+  margin-left: 20px;
+}
+
+/* 暂无数据 */
+.mj-tt-none{
+  text-align: center;
+  color: #cccccc;
+}
+.mj-tt-none .icon{
+  margin-top: 10%;
+  width: 120px;
+  height: 120px;
+  cursor: unset;
+}

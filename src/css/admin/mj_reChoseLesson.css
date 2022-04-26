@@ -1,0 +1,52 @@
+.cjy-rcl-choseLsBox{
+  margin-top: 30px;
+}
+
+.cjy-rcl-treeAndTable::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+.cjy-rcl-rightBox{
+  margin-left: 20px;
+  width: 80%;
+  float: left;
+}
+
+.cjy-rcl-slctBox{
+  margin-top: 10px;
+}
+
+.cjy-rcl-slct2{
+  float: left;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.cjy-rcl-slctBox::after{
+  content: '';
+  display: table;
+  clear:both;
+}
+
+.cjy-rcl-tableBox{
+  width: 842px;
+  margin-top: 14px;
+}
+
+.cjy-rcl-modal{
+  font-size: 14px;
+}
+
+.cjy-rcl-info{
+  font-size: 16px;
+  padding: 50px 20px 20px;
+}
+
+.cjy-rcl-close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #ffffff;
+}
